@@ -1,1 +1,79 @@
-# World-Embedding-Benchmark
+# World Embedding Benchmark
+
+Bidirectional text-video retrieval for PhysicsBench, with faithful
+LCO-Embedding inference through Transformers and vLLM.
+
+The benchmark uses `parsed_text` as the default text prompt and the embedded
+Parquet `video` field as video input. It reports text-to-video and video-to-text
+Recall, MRR, and nDCG globally and per family, and can save embeddings,
+similarity matrices, checkpoints, and family-confusion tables.
+
+## Quick start (standard x86_64 CUDA server)
+
+```bash
+sudo apt-get update
+sudo apt-get install -y ffmpeg python3.12-venv
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install -r requirements.txt
+huggingface-cli login
+```
+
+Use official prebuilt PyTorch/vLLM wheels on x86_64. Do not repeat the DGX
+Spark ARM64 source-build procedure described in `ENVIRONMENT.md`.
+
+Place datasets under:
+
+```text
+datasets/physics-bench-solid-eval
+datasets/physics-bench-optics-eval
+datasets/physics-bench-fluid-eval
+datasets/physics-bench-dynamics-eval
+```
+
+Each family is a directory containing Parquet shards with `query_id`, `case_id`,
+`raw_text`, `parsed_text`, and `video` columns.
+
+## Smoke test
+
+```bash
+python run_retrieval.py \
+  --dataset-dir datasets/physics-bench-solid-eval \
+  --model lco-omni-3b --backend vllm \
+  --vllm-max-model-len 4096 --vllm-gpu-memory-utilization 0.5 \
+  --video-sampling processor --fps 2 --max-frames 128 \
+  --batch-size 1 --video-prefetch-batches 1 \
+  --text-column parsed_text --limit-videos-per-family 1 \
+  --output results/solid_lco_3b_smoke.json
+```
+
+Remove the limit for a full run. Start with batch 1/prefetch 1, then benchmark
+larger values on the target server. Registered model keys are `lco-omni-3b` and
+`lco-omni-7b`; `--model-name` overrides their Hugging Face checkpoints.
+
+## Fidelity and sampling
+
+- Processor mode reproduces Qwen Omni FPS sampling while decoding only selected
+  frames; fixed mode uniformly selects exactly `--num-frames N` frames.
+- Both backends preserve LCO's compression prompts, LAST-token pooling, and L2
+  normalization.
+- `compare_lco_backends.py` validates Transformers/vLLM embedding parity.
+
+## Main files
+
+- `run_retrieval.py`: evaluation CLI.
+- `run_retrieval.sh`: readable full-run examples.
+- `world_embedding_benchmark/retrieval.py`: loading, caching, scoring, metrics.
+- `world_embedding_benchmark/models/`: Transformers/vLLM LCO adapters.
+- `world_embedding_benchmark/embedding_artifacts.py`: resumable artifacts.
+- `compare_lco_backends.py`: backend parity.
+- `benchmark_lco_video_throughput.py`: throughput tuning.
+- `debug_lco_retrieval.py`: retrieval diagnostics.
+- `visualize_similarity_matrices.py`: embedding visualization.
+- `merge_fluid_eval_captions.py`: legacy fluid reconstruction.
+- `HANDOFF.md`: project state and next steps.
+- `ENVIRONMENT.md`: x86_64 setup and historical ARM64 notes.
+
+Datasets, weights, results, caches, environments, and local build trees are
+intentionally excluded from Git.

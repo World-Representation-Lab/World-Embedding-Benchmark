@@ -1,6 +1,11 @@
 """Lightweight tools for the World Embedding Benchmark."""
 
 from .models import get_model, register_model
+from .pair_classification import PairClassificationResult, evaluate_pair_classification
+from .pair_classification_data import (
+    build_pair_classification_manifest,
+    create_pair_classification_manifest,
+)
 from .regression import (
     DEFAULT_ALPHAS,
     REGRESSION_CONFIGS,
@@ -37,6 +42,7 @@ __all__ = [
     "DEFAULT_REPETITION_SEEDS",
     "DEFAULT_TRAIN_SIZES",
     "REGRESSION_CONFIGS",
+    "PairClassificationResult",
     "DirectionalRetrievalResult",
     "RegressionItem",
     "RegressionResult",
@@ -44,8 +50,11 @@ __all__ = [
     "RetrievalResult",
     "RetrievalSuiteResult",
     "ScalingRunResult",
+    "build_pair_classification_manifest",
     "build_regression_split_manifest",
+    "create_pair_classification_manifest",
     "create_regression_split_manifest",
+    "evaluate_pair_classification",
     "evaluate_text_video_retrieval",
     "evaluate_text_video_retrieval_suite",
     "evaluate_video_regression",

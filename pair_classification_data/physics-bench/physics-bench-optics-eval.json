@@ -1,0 +1,6101 @@
+{
+  "branch": "physics-bench-optics-eval",
+  "dataset_dir": "datasets/physics-bench-optics-eval",
+  "dataset_fingerprint": "0cdabab7b74f201a83ec6986fc9500fd8c6d3659cb2f8482f4f9f53c3a142a7f",
+  "examples": [
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S066"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S135"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:00",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S139"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S153"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:01",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S056"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:02",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S147"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:03",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S130"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S109"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:04",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S130__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:05",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S046"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:06",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S136"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S066"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:07",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S112"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S004"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:08",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S112__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "beamSplitterPlate_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "beamSplitterPlate_S057"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S096"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:beamSplitterPlate:09",
+      "family": "beamSplitterPlate",
+      "query_id": "beamSplitterPlate_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S074"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:00",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S071"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:01",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S138"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S103"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:02",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S116"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S127"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:03",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S116__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S102"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S151"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:04",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S119"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S152"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:05",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S128"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S136"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:06",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S109"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:07",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S135"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S080"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:08",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "circularApertureAiry_S041"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "circularApertureAiry_S116"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S076"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:circularApertureAiry:09",
+      "family": "circularApertureAiry",
+      "query_id": "circularApertureAiry_S041__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S070"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S046"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S147"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:00",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S070__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S108"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S118"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:01",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S108__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S091"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S010"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:02",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S091__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S129"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:03",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S155"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S028"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:04",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S155__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S144"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S126"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S003"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:05",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S144__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S014"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:06",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S110"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:07",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S074"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S104"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:08",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "concaveMirrorFocus_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "concaveMirrorFocus_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S019"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:concaveMirrorFocus:09",
+      "family": "concaveMirrorFocus",
+      "query_id": "concaveMirrorFocus_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S146"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S081"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:00",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S100"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S113"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:01",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S100__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S063"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:02",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S047"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:03",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S054"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:04",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S147"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S047"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:05",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S147__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S131"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S158"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S124"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:06",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S131__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S134"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S031"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:07",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S134__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S054"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S077"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:08",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S054__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cornerCubeRetroreflector_S073"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cornerCubeRetroreflector_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S110"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:cornerCubeRetroreflector:09",
+      "family": "cornerCubeRetroreflector",
+      "query_id": "cornerCubeRetroreflector_S073__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S135"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S008"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S064"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:00",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S135__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S096"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S028"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:01",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S096__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S015"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:02",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S129"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S139"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:03",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S132"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:04",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S107"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S103"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S116"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:05",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S107__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S114"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:06",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S108"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S063"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:07",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S032"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:08",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dielectricBlockRefraction_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dielectricBlockRefraction_S133"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S071"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:dielectricBlockRefraction:09",
+      "family": "dielectricBlockRefraction",
+      "query_id": "dielectricBlockRefraction_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S095"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S039"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S050"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:00",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S095__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S107"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S035"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:01",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S126"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:02",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S100"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:03",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S043"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:04",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S121"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S009"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S019"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:05",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S121__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S024"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:06",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S116"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S002"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:07",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S009"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:08",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "diffractionGrating_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "diffractionGrating_S103"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S143"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:diffractionGrating:09",
+      "family": "diffractionGrating",
+      "query_id": "diffractionGrating_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S033"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S063"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:00",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S033__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S072"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S099"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S130"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:01",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S072__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S104"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S003"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:02",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S104__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S121"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:03",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S038"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:04",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S100"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S062"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:05",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S100__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S114"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S054"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:06",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S115"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:07",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S084"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S093"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:08",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "doubleSlitInterference_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "doubleSlitInterference_S035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S030"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:doubleSlitInterference:09",
+      "family": "doubleSlitInterference",
+      "query_id": "doubleSlitInterference_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S134"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S122"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S087"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:00",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S134__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S018"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:01",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S071"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S012"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:02",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S082"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S135"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S101"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:03",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S082__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S055"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:04",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S020"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S139"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S099"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:05",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S020__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S122"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S124"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:06",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S122__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S126"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S007"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:07",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S126__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S029"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S016"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:08",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "fresnelBrewster_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "fresnelBrewster_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S057"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:fresnelBrewster:09",
+      "family": "fresnelBrewster",
+      "query_id": "fresnelBrewster_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S116"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:00",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S137"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S056"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:01",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S125"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:02",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S117"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S008"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:03",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S010"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:04",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S052"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S079"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:05",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S056"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S044"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:06",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S135"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:07",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S127"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S129"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:08",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S127__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gaussianBeamPropagation_S137"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gaussianBeamPropagation_S047"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S091"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:gaussianBeamPropagation:09",
+      "family": "gaussianBeamPropagation",
+      "query_id": "gaussianBeamPropagation_S137__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S156"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S080"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:00",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S060"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S031"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S008"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:01",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S060__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S009"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S020"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:02",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S138"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S111"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:03",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S012"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:04",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S115"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S072"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S084"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:05",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S115__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S113"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:06",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S072"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S122"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S045"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:07",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S072__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S153"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S117"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:08",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S153__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "glassSphereCaustic_S136"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "glassSphereCaustic_S156"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S096"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:glassSphereCaustic:09",
+      "family": "glassSphereCaustic",
+      "query_id": "glassSphereCaustic_S136__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S123"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S012"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S079"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:00",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S123__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S085"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:01",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S056"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S034"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S041"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:02",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S056__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S126"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:03",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:04",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S060"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S098"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:05",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S060__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S104"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S085"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:06",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S104__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S136"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S064"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:07",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S060"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:08",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "knifeEdgeFresnel_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "knifeEdgeFresnel_S041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S041"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:knifeEdgeFresnel:09",
+      "family": "knifeEdgeFresnel",
+      "query_id": "knifeEdgeFresnel_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S143"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S112"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S034"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:00",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S143__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S155"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:01",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S131"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S007"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:02",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S131__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S142"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S007"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:03",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S102"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S102"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:04",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S138"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S131"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S117"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:05",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S138__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S062"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S098"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:06",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S062__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S145"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S126"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:07",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S145__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S087"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:08",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S087__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepCylinderScattering_S140"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepCylinderScattering_S141"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S022"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepCylinderScattering:09",
+      "family": "meepCylinderScattering",
+      "query_id": "meepCylinderScattering_S140__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S125"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S052"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:00",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S109"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:01",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S139"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:02",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S008"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S053"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:03",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S151"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S059"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:04",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S018"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S134"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S100"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:05",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S018__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S159"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S077"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:06",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S045"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:07",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S136"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S080"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:08",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepDipoleRadiation_S134"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepDipoleRadiation_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S107"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepDipoleRadiation:09",
+      "family": "meepDipoleRadiation",
+      "query_id": "meepDipoleRadiation_S134__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S142"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S122"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:00",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S047"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:01",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S146"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S130"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:02",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S146__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S105"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S068"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:03",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S079"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S073"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:04",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S079__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S142"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S017"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:05",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S142__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S140"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S014"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:06",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S140__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S077"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:07",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S109"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S140"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:08",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepEvanescentTIR_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepEvanescentTIR_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S032"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepEvanescentTIR:09",
+      "family": "meepEvanescentTIR",
+      "query_id": "meepEvanescentTIR_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S118"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S133"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:00",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S104"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S017"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:01",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S038"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:02",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S096"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S081"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:03",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S096__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S044"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S127"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S005"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:04",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S044__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S119"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S044"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:05",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S149"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S038"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:06",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S149__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S093"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:07",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S120"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S120"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:08",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepGratingDiffraction_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepGratingDiffraction_S146"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S053"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepGratingDiffraction:09",
+      "family": "meepGratingDiffraction",
+      "query_id": "meepGratingDiffraction_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S063"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S120"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:00",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S063__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S104"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S138"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:01",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S114"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S157"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:02",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S114__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S095"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:03",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S145"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S140"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S134"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:04",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S145__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S133"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S004"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:05",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S133__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S156"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S112"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:06",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S156__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S115"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S137"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:07",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S115__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S116"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S130"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S141"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:08",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S116__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalDefect_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S114"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalDefect:09",
+      "family": "meepPhotonicCrystalDefect",
+      "query_id": "meepPhotonicCrystalDefect_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S060"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S150"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S051"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:00",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S060__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S084"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S032"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:01",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S063"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S108"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S080"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:02",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S063__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S113"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S127"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:03",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S113__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S122"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:04",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S134"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S019"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:05",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S134__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S019"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S061"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S038"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:06",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S019__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S116"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S012"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:07",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S060"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:08",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPhotonicCrystalWaveguide_S112"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S089"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPhotonicCrystalWaveguide:09",
+      "family": "meepPhotonicCrystalWaveguide",
+      "query_id": "meepPhotonicCrystalWaveguide_S112__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S147"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:00",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S043"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:01",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S026"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S044"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S030"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:02",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S026__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S128"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S045"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:03",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S128__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S007"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:04",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S134"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S103"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S069"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:05",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S134__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S125"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S008"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:06",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S068"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:07",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S130"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S115"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:08",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S130__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepPlasmonicDimer_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepPlasmonicDimer_S139"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S057"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepPlasmonicDimer:09",
+      "family": "meepPlasmonicDimer",
+      "query_id": "meepPlasmonicDimer_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S130"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S134"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:00",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S121"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S140"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S032"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:01",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S121__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S111"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S101"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:02",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S111__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S034"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S079"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:03",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S062"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:04",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "totalInternalReflection_S076"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:05",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S141"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S066"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:06",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S138"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:07",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S100"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S089"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:08",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S100__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "meepWaveguideMode_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "meepWaveguideMode_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S044"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:meepWaveguideMode:09",
+      "family": "meepWaveguideMode",
+      "query_id": "meepWaveguideMode_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S061"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S098"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S068"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:00",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S061__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S027"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S076"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:01",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S027__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S109"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S066"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:02",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S079"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S134"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:03",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S079__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S111"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S012"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S118"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:04",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S111__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S019"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S017"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:05",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S019__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S107"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S077"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:06",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S003"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:07",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S064"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:08",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "planeMirrorReflection_S095"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "planeMirrorReflection_S087"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S022"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:planeMirrorReflection:09",
+      "family": "planeMirrorReflection",
+      "query_id": "planeMirrorReflection_S095__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S118"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:00",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S033"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S014"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:01",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S033__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S107"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S105"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S021"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:02",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S107__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S118"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:03",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S119"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S090"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S153"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:04",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S119__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S115"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S007"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:05",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S115__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S140"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:06",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S128"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S044"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:07",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S039"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:08",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "polarizerMalus_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "polarizerMalus_S120"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S087"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:polarizerMalus:09",
+      "family": "polarizerMalus",
+      "query_id": "polarizerMalus_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S144"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S085"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:00",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S144__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S004"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S156"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S097"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:01",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S004__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S092"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:02",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S026"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S127"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S139"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:03",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S026__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S075"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S001"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:04",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S110"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S137"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:05",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S110__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S049"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S025"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:06",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S049__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S087"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S134"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S101"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:07",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S087__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S115"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S033"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:08",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "prismDispersion_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "prismDispersion_S047"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S111"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:prismDispersion:09",
+      "family": "prismDispersion",
+      "query_id": "prismDispersion_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S106"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S140"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:00",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S017"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:01",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S044"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S089"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:02",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S119"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S048"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:03",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "doubleSlitInterference_S046"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:04",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S087"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S153"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:05",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "prismDispersion_S019"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:06",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:07",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S137"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S054"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:08",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "singleSlitFraunhofer_S044"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "singleSlitFraunhofer_S056"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "waveplatePolarization_S090"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:singleSlitFraunhofer:09",
+      "family": "singleSlitFraunhofer",
+      "query_id": "singleSlitFraunhofer_S044__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:00",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S131"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S098"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:01",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S005"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S074"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S077"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:02",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S005__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S061"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S132"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cornerCubeRetroreflector_S107"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:03",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S061__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S061"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S111"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:04",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S073"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "diffractionGrating_S085"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:05",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S073__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S108"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "concaveMirrorFocus_S093"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:06",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S108__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S134"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:07",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S122"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S146"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:08",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S122__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinFilmInterference_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinFilmInterference_S119"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepGratingDiffraction_S072"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinFilmInterference:09",
+      "family": "thinFilmInterference",
+      "query_id": "thinFilmInterference_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S034"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepCylinderScattering_S138"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:00",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S114"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:01",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S128"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S111"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S044"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:02",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S128__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S079"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:03",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S112"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S089"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:04",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S128"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:05",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S019"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:06",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S155"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S099"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S087"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:07",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S155__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "knifeEdgeFresnel_S047"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:08",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "thinLensFocus_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "thinLensFocus_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "planeMirrorReflection_S104"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:thinLensFocus:09",
+      "family": "thinLensFocus",
+      "query_id": "thinLensFocus_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S155"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S123"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:00",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S155__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "singleSlitFraunhofer_S071"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:01",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalDefect_S157"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:02",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S138"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S109"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S063"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:03",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S138__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S047"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepDipoleRadiation_S140"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:04",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S063"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S145"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "fresnelBrewster_S023"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:05",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S063__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S123"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S064"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:06",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S118"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "glassSphereCaustic_S005"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:07",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S118__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S145"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepEvanescentTIR_S144"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:08",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "totalInternalReflection_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "totalInternalReflection_S091"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S063"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:totalInternalReflection:09",
+      "family": "totalInternalReflection",
+      "query_id": "totalInternalReflection_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinLensFocus_S009"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:00",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S081"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S127"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gaussianBeamPropagation_S109"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:01",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S081__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "polarizerMalus_S072"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:02",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S005"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "thinFilmInterference_S101"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:03",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S005__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S135"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "beamSplitterPlate_S108"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:04",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S135__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S124"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepWaveguideMode_S089"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:05",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S071"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPlasmonicDimer_S120"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:06",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S122"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dielectricBlockRefraction_S024"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:07",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S122__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S108"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "circularApertureAiry_S017"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:08",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "waveplatePolarization_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "waveplatePolarization_S044"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "meepPhotonicCrystalWaveguide_S153"
+        }
+      ],
+      "example_id": "physics-bench-optics-eval:waveplatePolarization:09",
+      "family": "waveplatePolarization",
+      "query_id": "waveplatePolarization_S000__full__0"
+    }
+  ],
+  "excluded_queries": {},
+  "families": {
+    "beamSplitterPlate": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "circularApertureAiry": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "concaveMirrorFocus": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cornerCubeRetroreflector": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "dielectricBlockRefraction": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "diffractionGrating": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "doubleSlitInterference": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "fresnelBrewster": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "gaussianBeamPropagation": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "glassSphereCaustic": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "knifeEdgeFresnel": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepCylinderScattering": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepDipoleRadiation": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepEvanescentTIR": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepGratingDiffraction": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepPhotonicCrystalDefect": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepPhotonicCrystalWaveguide": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepPlasmonicDimer": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "meepWaveguideMode": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "planeMirrorReflection": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "polarizerMalus": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "prismDispersion": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "singleSlitFraunhofer": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "thinFilmInterference": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "thinLensFocus": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "totalInternalReflection": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "waveplatePolarization": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    }
+  },
+  "num_examples": 270,
+  "num_families": 27,
+  "sampling": {
+    "base_seed": 42,
+    "candidate_order": [
+      "positive",
+      "within_family_negative",
+      "cross_family_negative"
+    ],
+    "negative_trials_per_query": 1,
+    "queries_per_family": 10,
+    "strategy": "uniform_without_replacement_per_family"
+  },
+  "task": "text_video_pair_classification",
+  "text_column": "parsed_text",
+  "version": 1
+}

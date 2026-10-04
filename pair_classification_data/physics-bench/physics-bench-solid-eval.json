@@ -1,0 +1,6101 @@
+{
+  "branch": "physics-bench-solid-eval",
+  "dataset_dir": "datasets/physics-bench-solid-eval",
+  "dataset_fingerprint": "648d365d65a20ce08519974b3929f8d854a1eeba22a55fd6656aefdeb7a522ee",
+  "examples": [
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S018"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S052"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:00",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S018__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S070"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S009"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S099"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:01",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S070__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S124"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:02",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S092"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:03",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S098"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:04",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S004"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S001"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:05",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S004__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S063"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S099"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:06",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S063__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S115"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:07",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S056"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S068"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:08",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S056__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "biaxialTension_S078"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "biaxialTension_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S077"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:biaxialTension:09",
+      "family": "biaxialTension",
+      "query_id": "biaxialTension_S078__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S115"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S006"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:00",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S115"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:01",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S108"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S011"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:02",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cubeCompression3D_S112"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:03",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S112"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S110"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:04",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S112__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S033"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S055"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:05",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S012"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:06",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:07",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S074"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S108"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:08",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "bucklingSnapthrough_S052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "bucklingSnapthrough_S112"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S027"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:bucklingSnapthrough:09",
+      "family": "bucklingSnapthrough",
+      "query_id": "bucklingSnapthrough_S052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S062"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S001"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "biaxialTension_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:00",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S062__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S108"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:01",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S123"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S009"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:02",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S087"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S021"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:03",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S116"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S076"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:04",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S116__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S117"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S012"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:05",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S117__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S055"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S090"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:06",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S055__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S109"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S103"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S031"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:07",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S109__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole3D_S077"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:08",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverLocalization_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverLocalization_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S039"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cantileverLocalization:09",
+      "family": "cantileverLocalization",
+      "query_id": "cantileverLocalization_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S035"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:00",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S049"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S105"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:01",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S049__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S052"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:02",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S016"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:03",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S015"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:04",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:05",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S000"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S020"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:06",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S039"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S044"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:07",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S039__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S056"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:08",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "contactPatchCompression_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "contactPatchCompression_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cubeCompression3D_S103"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:contactPatchCompression:09",
+      "family": "contactPatchCompression",
+      "query_id": "contactPatchCompression_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S108"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:00",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S105"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:01",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S003"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S066"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:02",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S040"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:03",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S039"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:04",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S010"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S086"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S066"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:05",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S010__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S000"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:06",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S070"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S122"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:07",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S098"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:08",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cubeCompression3D_S104"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cubeCompression3D_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S103"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cubeCompression3D:09",
+      "family": "cubeCompression3D",
+      "query_id": "cubeCompression3D_S104__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S087"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:00",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S102"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:01",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S013"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:02",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:03",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S026"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S051"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S097"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:04",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S026__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S089"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:05",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "biaxialTension_S050"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:06",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:07",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S020"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:08",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cylinderTorsion3D_S070"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cylinderTorsion3D_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S067"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:cylinderTorsion3D:09",
+      "family": "cylinderTorsion3D",
+      "query_id": "cylinderTorsion3D_S070__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S130"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S121"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:00",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S130__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S009"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:01",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:02",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S043"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:03",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S120"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:04",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S122"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S041"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:05",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S120"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S018"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:06",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S072"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:07",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S126"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S080"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:08",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S126__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookean3D_S041"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S091"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S037"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookean3D:09",
+      "family": "hyperelasticNeoHookean3D",
+      "query_id": "hyperelasticNeoHookean3D_S041__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S026"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:00",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S048"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:01",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S027"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S054"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S100"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:02",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S027__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:03",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S029"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S045"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:04",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S001"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S030"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:05",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S054"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S102"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:06",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S059"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S026"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:07",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S059__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:08",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S033"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanCuboid3D:09",
+      "family": "hyperelasticNeoHookeanCuboid3D",
+      "query_id": "hyperelasticNeoHookeanCuboid3D_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S022"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:00",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S131"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:01",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S131__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S026"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S051"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S119"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:02",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S026__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S000"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S028"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:03",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S031"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S078"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:04",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S031__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S128"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S071"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:05",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S057"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S078"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:06",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S057__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S125"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S057"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:07",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S085"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:08",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S127"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S045"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:hyperelasticNeoHookeanSphere3D:09",
+      "family": "hyperelasticNeoHookeanSphere3D",
+      "query_id": "hyperelasticNeoHookeanSphere3D_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S033"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:00",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S099"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:01",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S044"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:02",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S109"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S003"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:03",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S109__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S012"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S012"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:04",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S073"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:05",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S056"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S109"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S102"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:06",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S056__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S061"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S010"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:07",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S061__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S035"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:08",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "loadUnloadHysteresis_S045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "loadUnloadHysteresis_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S058"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:loadUnloadHysteresis:09",
+      "family": "loadUnloadHysteresis",
+      "query_id": "loadUnloadHysteresis_S045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S113"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S010"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:00",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S113__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S070"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:01",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S026"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:02",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S019"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:03",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S044"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:04",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S082"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S083"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:05",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S082__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S112"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S105"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:06",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S112__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:07",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S040"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:08",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "longCuboidBending3D_S052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "longCuboidBending3D_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S016"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:longCuboidBending3D:09",
+      "family": "longCuboidBending3D",
+      "query_id": "longCuboidBending3D_S052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:00",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S010"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S087"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S037"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:01",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S010__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S021"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:02",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S086"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S051"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:03",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S077"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:04",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S009"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:05",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S120"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S102"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S098"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:06",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S120__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S079"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:07",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S079"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:08",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "nearIncompressibleBlock_S002"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "nearIncompressibleBlock_S105"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S068"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:nearIncompressibleBlock:09",
+      "family": "nearIncompressibleBlock",
+      "query_id": "nearIncompressibleBlock_S002__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S073"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S044"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:00",
+      "family": "necking",
+      "query_id": "necking_S073__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S116"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S005"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:01",
+      "family": "necking",
+      "query_id": "necking_S116__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:02",
+      "family": "necking",
+      "query_id": "necking_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S020"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:03",
+      "family": "necking",
+      "query_id": "necking_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S078"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S071"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S100"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:04",
+      "family": "necking",
+      "query_id": "necking_S078__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S087"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S123"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:05",
+      "family": "necking",
+      "query_id": "necking_S087__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S101"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:06",
+      "family": "necking",
+      "query_id": "necking_S101__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S004"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:07",
+      "family": "necking",
+      "query_id": "necking_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S129"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:08",
+      "family": "necking",
+      "query_id": "necking_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "necking_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "necking_S035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S039"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:necking:09",
+      "family": "necking",
+      "query_id": "necking_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S116"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S123"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S088"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:00",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S116__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S105"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:01",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S090"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S127"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:02",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S044"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S004"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:03",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S122"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S093"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:04",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S122__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S027"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:05",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S027__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S113"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S075"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S001"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:06",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S113__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S123"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S074"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:07",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S123__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S114"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:08",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "neoHookean_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "neoHookean_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S010"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:neoHookean:09",
+      "family": "neoHookean",
+      "query_id": "neoHookean_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:00",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S019"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S115"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:01",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S019__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S013"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:02",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:03",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S075"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S033"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:04",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S075__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S124"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S039"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:05",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S124__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S110"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S104"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S009"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:06",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S110__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole3D_S201"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:07",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S054"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S107"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S132"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:08",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S054__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "notchedBarTension3D_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "notchedBarTension3D_S048"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S078"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:notchedBarTension3D:09",
+      "family": "notchedBarTension3D",
+      "query_id": "notchedBarTension3D_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S120"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S114"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:00",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S120__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S085"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:01",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S088"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S056"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S056"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:02",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S088__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S057"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:03",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S125"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S023"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:04",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S125__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S033"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:05",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S101"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S104"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:06",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S101__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S121"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S121"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:07",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S053"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:08",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2CylinderTension3D_S133"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S046"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S071"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2CylinderTension3D:09",
+      "family": "plasticJ2CylinderTension3D",
+      "query_id": "plasticJ2CylinderTension3D_S133__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S016"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:00",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S020"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:01",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S040"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S038"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:02",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S122"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "biaxialTension_S031"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:03",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S122__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S132"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S051"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S040"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:04",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S132__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S014"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:05",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S119"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S109"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:06",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S126"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S046"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S035"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:07",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S126__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S130"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole3D_S082"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:08",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2LargeStrain3D_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S029"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2LargeStrain3D:09",
+      "family": "plasticJ2LargeStrain3D",
+      "query_id": "plasticJ2LargeStrain3D_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S059"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S067"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:00",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S059__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S033"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:01",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S009"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S108"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:02",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S128"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:03",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S047"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:04",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S123"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookean3D_S129"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:05",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S123__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S103"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S090"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:06",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S103__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S104"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S031"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:07",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S104__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S124"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:08",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plasticJ2NotchedBar3D_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S130"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S047"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plasticJ2NotchedBar3D:09",
+      "family": "plasticJ2NotchedBar3D",
+      "query_id": "plasticJ2NotchedBar3D_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S109"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S105"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:00",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S072"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S000"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:01",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S072__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S111"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S041"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:02",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S111__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S108"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cubeCompression3D_S016"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:03",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S103"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:04",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole3D_S284"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:05",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cubeCompression3D_S023"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:06",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S078"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S000"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S029"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:07",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S078__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S110"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S000"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:08",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole_S082"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole_S110"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S081"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole:09",
+      "family": "plateWithHole",
+      "query_id": "plateWithHole_S082__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S242"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:00",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S242__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S222"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S287"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S031"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:01",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S222__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S178"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S159"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S133"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:02",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S178__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S111"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S084"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:03",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S111__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S153"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S254"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S038"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:04",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S153__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S068"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:05",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S131"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S252"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S084"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:06",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S131__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S196"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S035"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:07",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S196__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S159"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S223"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S111"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:08",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S159__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "plateWithHole3D_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "plateWithHole3D_S181"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:plateWithHole3D:09",
+      "family": "plateWithHole3D",
+      "query_id": "plateWithHole3D_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S049"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:00",
+      "family": "pureShear",
+      "query_id": "pureShear_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S039"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S088"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:01",
+      "family": "pureShear",
+      "query_id": "pureShear_S039__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S054"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S092"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:02",
+      "family": "pureShear",
+      "query_id": "pureShear_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S105"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S094"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:03",
+      "family": "pureShear",
+      "query_id": "pureShear_S105__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S102"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S060"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:04",
+      "family": "pureShear",
+      "query_id": "pureShear_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "neoHookean_S088"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:05",
+      "family": "pureShear",
+      "query_id": "pureShear_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S096"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:06",
+      "family": "pureShear",
+      "query_id": "pureShear_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S083"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:07",
+      "family": "pureShear",
+      "query_id": "pureShear_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S112"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S102"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:08",
+      "family": "pureShear",
+      "query_id": "pureShear_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pureShear_S087"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pureShear_S000"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S020"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:pureShear:09",
+      "family": "pureShear",
+      "query_id": "pureShear_S087__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S092"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:00",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S111"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S123"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:01",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S018"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S038"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:02",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S018__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S111"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S087"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S080"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:03",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S111__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S090"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:04",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S100"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S110"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:05",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S100__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S060"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S106"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S045"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:06",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S060__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S108"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:07",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S108__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S043"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:08",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereIndentation3D_S009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereIndentation3D_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S122"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:sphereIndentation3D:09",
+      "family": "sphereIndentation3D",
+      "query_id": "sphereIndentation3D_S009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:00",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S027"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:01",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S112"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S071"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:02",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S112__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S031"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:03",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S106"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S082"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:04",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S092"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:05",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole_S069"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:06",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "contactPatchCompression_S038"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:07",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S074"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S082"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:08",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "threePointBending_S084"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "threePointBending_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:threePointBending:09",
+      "family": "threePointBending",
+      "query_id": "threePointBending_S084__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S055"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S069"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S099"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:00",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S055__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanSphere3D_S007"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:01",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S086"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "biaxialTension_S052"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:02",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S028"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S055"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:03",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S092"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S105"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2CylinderTension3D_S043"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:04",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S092__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S048"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:05",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S039"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:06",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cubeCompression3D_S019"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:07",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S109"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S046"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S000"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:08",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S109__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "torsionShear_S062"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "torsionShear_S101"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialCompression_S008"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:torsionShear:09",
+      "family": "torsionShear",
+      "query_id": "torsionShear_S062__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S073"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S027"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:00",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S073__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S095"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S090"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S048"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:01",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S095__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S109"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:02",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S070"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S001"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S073"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:03",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S070__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S027"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S075"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2LargeStrain3D_S056"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:04",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S027__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S107"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S032"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:05",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S004"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pureShear_S013"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:06",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S004__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S030"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S067"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:07",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S030__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "notchedBarTension3D_S001"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:08",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialCompression_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialCompression_S042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S016"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialCompression:09",
+      "family": "uniaxialCompression",
+      "query_id": "uniaxialCompression_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S104"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S047"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:00",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S104__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "necking_S070"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:01",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S074"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S081"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:02",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S103"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plasticJ2NotchedBar3D_S107"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:03",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S103__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S044"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:04",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S101"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "plateWithHole3D_S238"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:05",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S101__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "torsionShear_S078"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:06",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S057"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "yieldHardening_S001"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:07",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S057__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cylinderTorsion3D_S059"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:08",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "uniaxialTension_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "uniaxialTension_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "loadUnloadHysteresis_S113"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:uniaxialTension:09",
+      "family": "uniaxialTension",
+      "query_id": "uniaxialTension_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "uniaxialTension_S075"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:00",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S032"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S035"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:01",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S108"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverLocalization_S003"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:02",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S108__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S113"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereIndentation3D_S062"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:03",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S119"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "hyperelasticNeoHookeanCuboid3D_S022"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:04",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S119__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S022"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S103"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:05",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S052"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "nearIncompressibleBlock_S117"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:06",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "threePointBending_S034"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:07",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S044"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S098"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "longCuboidBending3D_S070"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:08",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S044__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "yieldHardening_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "yieldHardening_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "bucklingSnapthrough_S090"
+        }
+      ],
+      "example_id": "physics-bench-solid-eval:yieldHardening:09",
+      "family": "yieldHardening",
+      "query_id": "yieldHardening_S089__full__0"
+    }
+  ],
+  "excluded_queries": {},
+  "families": {
+    "biaxialTension": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "bucklingSnapthrough": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cantileverLocalization": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "contactPatchCompression": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cubeCompression3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cylinderTorsion3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "hyperelasticNeoHookean3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "hyperelasticNeoHookeanCuboid3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "hyperelasticNeoHookeanSphere3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "loadUnloadHysteresis": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "longCuboidBending3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "nearIncompressibleBlock": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "necking": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "neoHookean": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "notchedBarTension3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "plasticJ2CylinderTension3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "plasticJ2LargeStrain3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "plasticJ2NotchedBar3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "plateWithHole": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "plateWithHole3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "pureShear": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "sphereIndentation3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "threePointBending": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "torsionShear": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "uniaxialCompression": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "uniaxialTension": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "yieldHardening": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    }
+  },
+  "num_examples": 270,
+  "num_families": 27,
+  "sampling": {
+    "base_seed": 42,
+    "candidate_order": [
+      "positive",
+      "within_family_negative",
+      "cross_family_negative"
+    ],
+    "negative_trials_per_query": 1,
+    "queries_per_family": 10,
+    "strategy": "uniform_without_replacement_per_family"
+  },
+  "task": "text_video_pair_classification",
+  "text_column": "parsed_text",
+  "version": 1
+}

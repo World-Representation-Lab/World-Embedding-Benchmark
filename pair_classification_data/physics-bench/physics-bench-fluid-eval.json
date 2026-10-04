@@ -1,0 +1,1601 @@
+{
+  "branch": "physics-bench-fluid-eval",
+  "dataset_dir": "datasets/physics-bench-fluid-eval",
+  "dataset_fingerprint": "1585550287cb676a4e2d1fe70e876f206e058ec61e496765838de6b5dba2a0a6",
+  "examples": [
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re4425_s043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "buoyancy2d_Re620_s027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lidDrivenCavity3d_Re440_s014"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:00",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re4425_s043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re175_s003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "buoyancy2d_Re145_s003"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re1400_s009_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:01",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re175_s003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re8600_s048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "buoyancy2d_Re1025_s033"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lidDrivenCavity3d_Re3825_s034"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:02",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re8600_s048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "buoyancy2d_Re960_s032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "buoyancy2d_Re1175_s035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re280_s026"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:03",
+      "family": "buoyancy",
+      "query_id": "buoyancy2d_Re960_s032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re320_s011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rayleighBenard2d_Re205_s005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re120_s010"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:04",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re320_s011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re3825_s042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rayleighBenard2d_Re235_s007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re310_s027"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:05",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re3825_s042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re140_s000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rayleighBenard2d_Re430_s015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re255_middle_t1"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:06",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re140_s000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "buoyancy2d_Re275_s013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "buoyancy2d_Re1175_s035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "backwardFacingStep2d_Re4500_s018"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:07",
+      "family": "buoyancy",
+      "query_id": "buoyancy2d_Re275_s013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "buoyancy2d_Re125_s000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rayleighBenard2d_Re3825_s042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re5200_s001"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:08",
+      "family": "buoyancy",
+      "query_id": "buoyancy2d_Re125_s000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rayleighBenard2d_Re310_s010"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rayleighBenard2d_Re10000_s049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re185_s017"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:buoyancy:09",
+      "family": "buoyancy",
+      "query_id": "rayleighBenard2d_Re310_s010__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re8750_s052"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lidDrivenCavity3d_Re6550_s020"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re510_s070"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:00",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re8750_s052__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re12650_s029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cavity2d_turb_Re15200_s004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re11350_s045"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:01",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re12650_s029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lidDrivenCavity3d_Re9750_s041"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lidDrivenCavity3d_Re6950_s032"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_nn_powerlaw_Re6000_s019"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:02",
+      "family": "cavity",
+      "query_id": "lidDrivenCavity3d_Re9750_s041__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lidDrivenCavity3d_Re155_s006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cavity2d_turb_Re10200_s021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re630_s014"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:03",
+      "family": "cavity",
+      "query_id": "lidDrivenCavity3d_Re155_s006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re14700_s000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cavity2d_turb_Re11400_s024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re75_s001"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:04",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re14700_s000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re5200_s001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lidDrivenCavity3d_Re230_s009"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastcylinder2d_Re205_s029"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:05",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re5200_s001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re17000_s045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cavity2d_turb_Re6050_s005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re910_s018"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:06",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re17000_s045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lidDrivenCavity3d_Re3825_s034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lidDrivenCavity3d_Re320_s011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re265_s006"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:07",
+      "family": "cavity",
+      "query_id": "lidDrivenCavity3d_Re3825_s034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lidDrivenCavity3d_Re3550_s024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cavity2d_turb_Re5400_s002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re340_s053"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:08",
+      "family": "cavity",
+      "query_id": "lidDrivenCavity3d_Re3550_s024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cavity2d_turb_Re12750_s030"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lidDrivenCavity3d_Re265_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re185_s017"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:cavity:09",
+      "family": "cavity",
+      "query_id": "cavity2d_turb_Re12750_s030__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re155_s017"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_nn_powerlaw_Re235_s004"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:00",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re155_s017__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re1200_s012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re17400_s046"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:01",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re1200_s012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re540_s073"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re600_s078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re1225_lower_t1"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:02",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re540_s073__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re920_s091"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re16900_s044"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:03",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re920_s091__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re1200_s064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re185_s023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re1575_s040"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:04",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re1200_s064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re1200_s008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re225_s031"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re2975_s046"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:05",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re1200_s008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re240_s034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re5500_s003_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:06",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re240_s034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re1200_s088"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re275_s041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re17000_s045"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:07",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re1200_s088__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re1200_s028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re275_s041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastcylinder2d_Re250_s008"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:08",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re1200_s028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "naca0012airfoil2d_Re350_s054"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "naca0012airfoil2d_Re380_s057"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lidDrivenCavity3d_Re4825_s040"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_aero:09",
+      "family": "external_aero",
+      "query_id": "naca0012airfoil2d_Re350_s054__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastcylinder2d_Re125_s013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastcylinder2d_Re115_s011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s008_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:00",
+      "family": "external_wake",
+      "query_id": "flowpastcylinder2d_Re125_s013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastsquare2d_Re120_s009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastcylinder2d_Re235_s035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_nn_hb_Re5550_s007_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:01",
+      "family": "external_wake",
+      "query_id": "flowpastsquare2d_Re120_s009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastcylinder2d_Re205_s029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastsquare2d_Re130_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "backwardFacingStep2d_Re3500_s007_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:02",
+      "family": "external_wake",
+      "query_id": "flowpastcylinder2d_Re205_s029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastcylinder2d_Re110_s010_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastsquare2d_Re80_s002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re710_s015"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:03",
+      "family": "external_wake",
+      "query_id": "flowpastcylinder2d_Re110_s010_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastsquare2d_Re200_s019"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastcylinder2d_Re110_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re1900_s042"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:04",
+      "family": "external_wake",
+      "query_id": "flowpastsquare2d_Re200_s019__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastcylinder2d_Re250_s039"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastcylinder2d_Re110_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lidDrivenCavity3d_Re11450_s042"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:05",
+      "family": "external_wake",
+      "query_id": "flowpastcylinder2d_Re250_s039__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastsquare2d_Re1000_s047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastsquare2d_Re280_s026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re820_s087"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:06",
+      "family": "external_wake",
+      "query_id": "flowpastsquare2d_Re1000_s047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastsquare2d_Re130_s010"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastcylinder2d_Re210_s030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re430_s010"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:07",
+      "family": "external_wake",
+      "query_id": "flowpastsquare2d_Re130_s010__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastsquare2d_Re1000_s020"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastsquare2d_Re710_s042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re285_middle_t3"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:08",
+      "family": "external_wake",
+      "query_id": "flowpastsquare2d_Re1000_s020__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flowpastcylinder2d_Re115_s011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flowpastsquare2d_Re190_s018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re13850_s034"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:external_wake:09",
+      "family": "external_wake",
+      "query_id": "flowpastcylinder2d_Re115_s011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_nn_hb_Re6550_s001_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenExpansion2d_nn_hb_Re7150_s016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re245_s035"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:00",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_nn_hb_Re6550_s001_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "backwardFacingStep2d_Re510_s006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenContraction2d_Re2125_s004_r2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re280_s042"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:01",
+      "family": "internal_step",
+      "query_id": "backwardFacingStep2d_Re510_s006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_nn_hb_Re460_s002_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenExpansion2d_Re380_s002_r2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re3675_upper_t1"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:02",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_nn_hb_Re460_s002_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenContraction2d_Re5350_s013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenContraction2d_Re370_s004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re350_lower_t3"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:03",
+      "family": "internal_step",
+      "query_id": "suddenContraction2d_Re5350_s013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_Re1900_s014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenExpansion2d_Re5550_s013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re430_s021"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:04",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_Re1900_s014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_Re6750_s015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenExpansion2d_nn_powerlaw_Re6750_s005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re390_s058"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:05",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_Re6750_s015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "backwardFacingStep2d_Re4525_s005"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenExpansion2d_Re3725_s007_r2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re890_s090"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:06",
+      "family": "internal_step",
+      "query_id": "backwardFacingStep2d_Re4525_s005__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_Re220_s004"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "backwardFacingStep2d_Re2350_s014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cavity2d_turb_Re12000_s027"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:07",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_Re220_s004__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "backwardFacingStep2d_Re3375_s006_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "suddenContraction2d_Re2125_s004_r2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re1575_s016_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:08",
+      "family": "internal_step",
+      "query_id": "backwardFacingStep2d_Re3375_s006_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "suddenExpansion2d_nn_powerlaw_Re600_s008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "backwardFacingStep2d_Re680_s008"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re200_lower_t3"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:internal_step:09",
+      "family": "internal_step",
+      "query_id": "suddenExpansion2d_nn_powerlaw_Re600_s008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_turb_Re28200_s020"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re16300_s018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastcylinder2d_Re250_s024"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:00",
+      "family": "jet_axi",
+      "query_id": "jetaxi_turb_Re28200_s020__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_turb_Re22600_s040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_Re430_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastcylinder2d_Re140_s013_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:01",
+      "family": "jet_axi",
+      "query_id": "jetaxi_turb_Re22600_s040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_turb_Re6300_s003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_Re440_s011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dye2d_Re520_lower_t2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:02",
+      "family": "jet_axi",
+      "query_id": "jetaxi_turb_Re6300_s003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re7800_s041"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re25100_s029"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re5500_s003_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:03",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re7800_s041__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re11000_s018_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re5850_s002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "backwardFacingStep2d_Re7150_s001"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:04",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re11000_s018_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re2850_s030"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re10350_s010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re770_s043"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:05",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re2850_s030__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re910_s018"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re28300_s034"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "buoyancy2d_Re1100_s013_r2"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:06",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re910_s018__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re1500_s023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_turb_Re20300_s021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re4475_s018"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:07",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re1500_s023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_Re3450_s031"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_Re440_s011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re4475_s018"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:08",
+      "family": "jet_axi",
+      "query_id": "jetaxi_Re3450_s031__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "jetaxi_turb_Re22700_s025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "jetaxi_Re940_s019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re890_s090"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:jet_axi:09",
+      "family": "jet_axi",
+      "query_id": "jetaxi_turb_Re22700_s025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re4825_middle_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re520_lower_t2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_turb_Re18700_s000"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:00",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re4825_middle_t1__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re600_upper_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re2850_lower_t1"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re6650_s017"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:01",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re600_upper_t1__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re95_middle_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re185_lower_t3"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "suddenExpansion2d_Re6650_s017"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:02",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re95_middle_t1__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re610_lower_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re1875_lower_t1"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re890_s090"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:03",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re610_lower_t1__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re330_upper_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re2300_upper_t1"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re1000_s036"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:04",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re330_upper_t1__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re600_lower_t3"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re460_upper_t1"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "backwardFacingStep2d_Re3950_s013"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:05",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re600_lower_t3__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re1150_upper_t3_s030_r2"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re1150_upper_t3"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "jetaxi_Re2850_s030"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:06",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re1150_upper_t3_s030_r2__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re350_lower_t3"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re600_upper_t3"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "naca0012airfoil2d_Re1200_s092"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:07",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re350_lower_t3__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re100_upper_t3"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re65_upper_t3"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastcylinder2d_Re215_s031"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:08",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re100_upper_t3__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dye2d_Re460_lower_t1"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dye2d_Re1700_lower_t1_s033_r2"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flowpastsquare2d_Re570_s039"
+        }
+      ],
+      "example_id": "physics-bench-fluid-eval:scalar_transport:09",
+      "family": "scalar_transport",
+      "query_id": "dye2d_Re460_lower_t1__full__0"
+    }
+  ],
+  "excluded_queries": {},
+  "families": {
+    "buoyancy": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cavity": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "external_aero": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "external_wake": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "internal_step": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "jet_axi": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "scalar_transport": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    }
+  },
+  "num_examples": 70,
+  "num_families": 7,
+  "sampling": {
+    "base_seed": 42,
+    "candidate_order": [
+      "positive",
+      "within_family_negative",
+      "cross_family_negative"
+    ],
+    "negative_trials_per_query": 1,
+    "queries_per_family": 10,
+    "strategy": "uniform_without_replacement_per_family"
+  },
+  "task": "text_video_pair_classification",
+  "text_column": "parsed_text",
+  "version": 1
+}

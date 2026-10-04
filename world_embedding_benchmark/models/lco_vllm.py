@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-from collections import deque
 from collections.abc import Sequence
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
@@ -13,7 +12,8 @@ import numpy as np
 
 from .lco_embedding import (
     TEXT_COMPRESSION_SUFFIX, VIDEO_COMPRESSION_SUFFIX,
-    sample_qwen_processor_video_frames, sample_video_frames,
+    resolve_video_decoder, sample_qwen_processor_video_frames,
+    sample_qwen_processor_video_frames_torchcodec, sample_video_frames,
 )
 
 
@@ -34,6 +34,8 @@ class LCOVLLMEmbedding:
     enforce_eager: bool = True
     tensor_parallel_size: int = 1
     video_prefetch_batches: int = 0
+    video_decode_workers: int = 1
+    video_decoder: str = "auto"
     engine_kwargs: dict[str, Any] | None = None
     device: str | None = None
     model_kwargs: dict[str, Any] | None = None
@@ -47,8 +49,13 @@ class LCOVLLMEmbedding:
             raise ValueError("video_sampling must be 'processor' or 'fixed'")
         if self.video_sampling == "fixed" and self.num_frames is None and self.fps is None:
             raise ValueError("fixed sampling needs num_frames or fps")
-        if self.video_prefetch_batches not in {0, 1, 2}:
-            raise ValueError("video_prefetch_batches must be 0, 1, or 2")
+        if self.video_prefetch_batches < 0:
+            raise ValueError("video_prefetch_batches must be non-negative")
+        if self.video_decode_workers < 1:
+            raise ValueError("video_decode_workers must be positive")
+        self.video_decoder = resolve_video_decoder(
+            self.video_decoder, video_sampling=self.video_sampling
+        )
         try:
             from transformers import Qwen2_5OmniProcessor
             from vllm import LLM
@@ -56,7 +63,7 @@ class LCOVLLMEmbedding:
             from vllm.model_executor.models import ModelRegistry
         except ImportError as exc:
             raise RuntimeError(
-                "Install the pinned ARM64 vLLM environment described in README.md "
+                "Install the pinned vLLM environment described in ENVIRONMENT.md "
                 "before using --backend vllm."
             ) from exc
 
@@ -95,60 +102,61 @@ class LCOVLLMEmbedding:
 
     def encode_videos(self, videos: Sequence[str | Path], *, batch_size: int) -> np.ndarray:
 
-        batches = [
-            videos[start : start + batch_size]
-            for start in range(0, len(videos), batch_size)
-        ]
-        if not batches:
+        if not videos:
             raise ValueError("No videos to encode")
-        if self.video_prefetch_batches == 0:
-            return np.concatenate([
-                self._embed(self._build_video_prompts(batch), batch_size=batch_size)
-                for batch in batches
-            ])
-
         embeddings: list[np.ndarray] = []
-        with ThreadPoolExecutor(max_workers=1, thread_name_prefix="lco-video-decode") as pool:
-            futures = deque()
-            next_batch = 0
-            initial = min(1 + self.video_prefetch_batches, len(batches))
-            for _ in range(initial):
-                futures.append(pool.submit(self._build_video_prompts, batches[next_batch]))
-                next_batch += 1
-            while futures:
-                prompts = futures.popleft().result()
-                if next_batch < len(batches):
-                    futures.append(pool.submit(self._build_video_prompts, batches[next_batch]))
-                    next_batch += 1
+        window = max(batch_size, (1 + self.video_prefetch_batches) * batch_size)
+        with ThreadPoolExecutor(
+            max_workers=self.video_decode_workers,
+            thread_name_prefix="lco-video-decode",
+        ) as pool:
+            futures: dict[int, Any] = {}
+            next_video = 0
+            while next_video < min(window, len(videos)):
+                futures[next_video] = pool.submit(self._build_video_prompt, videos[next_video])
+                next_video += 1
+            for start in range(0, len(videos), batch_size):
+                stop = min(start + batch_size, len(videos))
+                prompts = [futures.pop(index).result() for index in range(start, stop)]
+                while next_video < min(stop + window, len(videos)):
+                    futures[next_video] = pool.submit(
+                        self._build_video_prompt, videos[next_video]
+                    )
+                    next_video += 1
                 embeddings.append(self._embed(prompts, batch_size=batch_size))
         return np.concatenate(embeddings, axis=0)
 
     def _build_video_prompts(
         self, videos: Sequence[str | Path]
     ) -> list[dict[str, Any]]:
-        prompts: list[dict[str, Any]] = []
-        for video in videos:
-            frames = self._load_video_frames(video)
-            messages = [[{"role": "user", "content": [
-                {"type": "video", "video": frames},
-                {"type": "text", "text": VIDEO_COMPRESSION_SUFFIX},
-            ]}]]
-            prompts.append({
-                "prompt": self._chat_text(messages)[0],
-                "multi_modal_data": {"video": frames},
-                "mm_processor_kwargs": {
-                    "do_sample_frames": False,
-                    "use_audio_in_video": False,
-                },
-            })
-        return prompts
+        return [self._build_video_prompt(video) for video in videos]
+
+    def _build_video_prompt(self, video: str | Path) -> dict[str, Any]:
+        frames = self._load_video_frames(video)
+        messages = [[{"role": "user", "content": [
+            {"type": "video", "video": frames},
+            {"type": "text", "text": VIDEO_COMPRESSION_SUFFIX},
+        ]}]]
+        return {
+            "prompt": self._chat_text(messages)[0],
+            "multi_modal_data": {"video": frames},
+            "mm_processor_kwargs": {
+                "do_sample_frames": False,
+                "use_audio_in_video": False,
+            },
+        }
 
     def _load_video_frames(self, video: str | Path) -> Any:
         if self.video_sampling == "fixed":
             return sample_video_frames(
                 video, fps=self.fps, max_frames=self.max_frames, num_frames=self.num_frames
             )
-        return sample_qwen_processor_video_frames(
+        sampler = (
+            sample_qwen_processor_video_frames_torchcodec
+            if self.video_decoder == "torchcodec"
+            else sample_qwen_processor_video_frames
+        )
+        return sampler(
             video, fps=self.fps if self.fps is not None else 2.0,
             max_frames=self.max_frames,
         )

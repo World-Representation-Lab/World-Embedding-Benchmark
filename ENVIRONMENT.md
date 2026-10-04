@@ -20,6 +20,11 @@ python - <<'PY'
 import platform, torch, transformers, vllm
 print(platform.machine(), torch.__version__, torch.cuda.is_available())
 print(transformers.__version__, vllm.__version__)
+try:
+    import torchcodec
+    print("torchcodec", torchcodec.__version__)
+except ImportError:
+    print("torchcodec unavailable; auto will use FFmpeg")
 PY
 ffmpeg -version | head -1
 ffprobe -version | head -1
@@ -29,8 +34,12 @@ If exact pins are unavailable for the target CUDA/Python combination, choose a
 compatible official PyTorch/vLLM wheel pair. The adapter imports vLLM internals,
 so rerun backend parity after any vLLM upgrade.
 
-TorchCodec is not required. The optimized path uses system FFmpeg/FFprobe and
-passes sampled TCHW tensors directly to the model, avoiding full-video decode.
+TorchCodec is the preferred processor-mode decoder and is included in the tested
+requirements. Decoder `auto` falls back to system FFmpeg/FFprobe if TorchCodec
+cannot load, so it remains optional at runtime. TorchCodec requires a version
+compatible with PyTorch and FFmpeg shared libraries. Fixed-frame sampling
+currently uses FFmpeg. Both paths decode only selected frames and pass sampled
+TCHW tensors directly to the model.
 
 Authenticate using `huggingface-cli login` or `HF_TOKEN`; never store tokens in
 source. Default checkpoints are:
@@ -44,12 +53,13 @@ selection inside `download.py`.
 
 ## First-run validation
 
-1. `python -m compileall world_embedding_benchmark *.py`
-2. `python run_retrieval.py --help`
-3. One-example-per-family Transformers smoke test.
-4. One-example-per-family vLLM smoke test.
-5. Parity test for processor and fixed-frame modes.
-6. Only then launch full evaluation.
+1. `python -m unittest discover -s tests`
+2. `python -m compileall world_embedding_benchmark *.py`
+3. `python run_retrieval.py --help`
+4. One-example-per-family Transformers smoke test.
+5. One-example-per-family vLLM smoke test.
+6. Parity test for processor and fixed-frame modes.
+7. Only then launch full evaluation.
 
 When both backends share one environment:
 

@@ -15,7 +15,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--vllm-max-model-len", type=int, default=32768)
     parser.add_argument("--vllm-gpu-memory-utilization", type=float, default=0.8)
     parser.add_argument("--batch-size", type=int, default=4)
-    parser.add_argument("--video-prefetch-batches", type=int, choices=[0, 1, 2], default=0)
+    parser.add_argument("--video-prefetch-batches", type=int, default=0)
+    parser.add_argument("--video-decode-workers", type=int, default=1)
+    parser.add_argument(
+        "--video-decoder", choices=["auto", "ffmpeg", "torchcodec"], default="auto",
+        help="vLLM video decoder; auto prefers TorchCodec and falls back to FFmpeg.",
+    )
+    parser.add_argument(
+        "--vllm-enforce-eager", action=argparse.BooleanOptionalAction, default=True
+    )
     parser.add_argument("--limit-queries", type=int)
     parser.add_argument("--limit-videos", type=int)
     parser.add_argument("--limit-videos-per-family", type=int)
@@ -52,6 +60,9 @@ def main() -> None:
         model_kwargs["max_model_len"] = args.vllm_max_model_len
         model_kwargs["gpu_memory_utilization"] = args.vllm_gpu_memory_utilization
         model_kwargs["video_prefetch_batches"] = args.video_prefetch_batches
+        model_kwargs["video_decode_workers"] = args.video_decode_workers
+        model_kwargs["video_decoder"] = args.video_decoder
+        model_kwargs["enforce_eager"] = args.vllm_enforce_eager
     if args.model_name:
         model_kwargs["model_name"] = args.model_name
     model = get_model(args.model, **model_kwargs)
@@ -76,6 +87,9 @@ def main() -> None:
             "max_frames": args.max_frames,
             "num_frames": args.num_frames,
             "video_prefetch_batches": args.video_prefetch_batches,
+            "video_decode_workers": args.video_decode_workers,
+            "video_decoder": getattr(model, "video_decoder", args.video_decoder),
+            "vllm_enforce_eager": args.vllm_enforce_eager,
         },
         save_similarities=args.save_similarity_matrices,
         save_family_confusion=args.save_family_confusion,

@@ -7,6 +7,7 @@ from pathlib import Path
 import shutil
 import subprocess
 from typing import Any
+import warnings
 
 import numpy as np
 
@@ -221,7 +222,7 @@ def sample_video_frames(
         indices = torch.linspace(0, n_source - 1, steps=target).round().long()
     else:
         indices = torch.arange(n_source)
-    return _read_video_with_ffmpeg(video_path, indices=indices.tolist())[0]
+    return _read_video_with_ffmpeg(video_path, indices=indices.tolist(), info=info)[0]
 
 
 def sample_qwen_processor_video_frames(
@@ -241,18 +242,75 @@ def sample_qwen_processor_video_frames(
     if target < 2:
         raise RuntimeError(f"No valid Qwen frame count for {video_path}")
     indices = torch.linspace(0, total_frames - 1, steps=target).round().long()
-    return _read_video_with_ffmpeg(video_path, indices=indices.tolist())[0]
+    return _read_video_with_ffmpeg(video_path, indices=indices.tolist(), info=info)[0]
+
+
+def sample_qwen_processor_video_frames_torchcodec(
+    video_path: str | Path, *, fps: float = 2.0, max_frames: int | None = None
+) -> Any:
+    """Reproduce Qwen Omni FPS sampling with TorchCodec indexed decoding."""
+    import torch
+    decoder = _load_torchcodec_video_decoder()(
+        video_path, dimension_order="NCHW", num_ffmpeg_threads=1
+    )
+    total_frames = int(decoder.metadata.num_frames)
+    source_fps = float(decoder.metadata.average_fps)
+    maximum = min(max_frames if max_frames is not None else 768, total_frames)
+    maximum -= maximum % 2
+    minimum = min(4, maximum)
+    target = min(max(total_frames / source_fps * fps, minimum), maximum, total_frames)
+    target = int(target) - int(target) % 2
+    if target < 2:
+        raise RuntimeError(f"No valid Qwen frame count for {video_path}")
+    indices = torch.linspace(0, total_frames - 1, steps=target).round().long()
+    return decoder.get_frames_at(indices).data
+
+
+def resolve_video_decoder(requested: str, *, video_sampling: str) -> str:
+    """Resolve ``auto`` to TorchCodec when available, otherwise FFmpeg."""
+    if requested not in {"auto", "torchcodec", "ffmpeg"}:
+        raise ValueError("video_decoder must be auto, torchcodec, or ffmpeg")
+    if video_sampling == "fixed":
+        if requested == "torchcodec":
+            raise ValueError("fixed video sampling currently requires ffmpeg")
+        return "ffmpeg"
+    if requested == "ffmpeg":
+        return "ffmpeg"
+    try:
+        _load_torchcodec_video_decoder()
+    except (ImportError, OSError, RuntimeError) as exc:
+        if requested == "torchcodec":
+            raise RuntimeError(
+                "TorchCodec was requested but could not be loaded. Install a "
+                "TorchCodec version compatible with PyTorch and system FFmpeg."
+            ) from exc
+        warnings.warn(
+            f"TorchCodec is unavailable ({exc}); falling back to FFmpeg.",
+            RuntimeWarning,
+            stacklevel=2,
+        )
+        return "ffmpeg"
+    return "torchcodec"
+
+
+def _load_torchcodec_video_decoder() -> Any:
+    from torchcodec.decoders import VideoDecoder
+
+    return VideoDecoder
 
 
 def _read_video_with_ffmpeg(
-    video_path: str | Path, *, indices: Sequence[int] | None = None
+    video_path: str | Path,
+    *,
+    indices: Sequence[int] | None = None,
+    info: dict[str, float] | None = None,
 ) -> tuple[Any, dict[str, float]]:
     if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
         raise RuntimeError("Video sampling needs system ffmpeg and ffprobe")
     import torch
 
     path = str(video_path)
-    info = _probe_video_with_ffmpeg(video_path)
+    info = info or _probe_video_with_ffmpeg(video_path)
     width = int(info["width"])
     height = int(info["height"])
     command = ["ffmpeg", "-v", "error", "-i", path]

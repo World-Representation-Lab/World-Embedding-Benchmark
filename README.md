@@ -1,7 +1,7 @@
 # World Embedding Benchmark
 
-Bidirectional text-video retrieval for PhysicsBench, with faithful
-LCO-Embedding inference through Transformers and vLLM.
+Text-video retrieval and video-representation regression for PhysicsBench,
+with faithful LCO-Embedding inference through Transformers and vLLM.
 
 The benchmark uses `parsed_text` as the default text prompt and the embedded
 Parquet `video` field as video input. It reports text-to-video and video-to-text
@@ -56,6 +56,29 @@ fast on a dual RTX 6000D server; benchmark them on the target hardware. Decoder
 FFmpeg decoding. Registered model keys are `lco-omni-3b` and
 `lco-omni-7b`; `--model-name` overrides their Hugging Face checkpoints.
 
+## Video regression
+
+`run_regression.py` evaluates frozen video embeddings with a nested
+cross-validated ridge probe. Every reported prediction is out of fold, and the
+ridge strength is selected using only an inner split of the corresponding outer
+training fold. Feature and target standardization are fit on training data only.
+
+```bash
+python run_regression.py \
+  --dataset-dir datasets/physics-bench-regression-500 \
+  --subset pendulum \
+  --model lco-omni-3b --model-name ./models/LCO-Embedding-Omni-3B \
+  --backend vllm --video-decoder auto \
+  --batch-size 4 --video-prefetch-batches 2 --video-decode-workers 8 \
+  --embedding-output-dir results/regression/pendulum/embeddings \
+  --output results/regression/pendulum/result.json
+```
+
+The evaluator reports MAE, MSE, RMSE, R², Pearson correlation, tie-aware
+Spearman correlation, and MAE/RMSE normalized by the target range. Encoding is
+resumable when `--embedding-output-dir` is set; per-example out-of-fold
+predictions are written beside `--output` unless a separate path is supplied.
+
 ## Fidelity and sampling
 
 - Processor mode reproduces Qwen Omni FPS sampling while decoding only selected
@@ -69,9 +92,11 @@ FFmpeg decoding. Registered model keys are `lco-omni-3b` and
 
 ## Main files
 
-- `run_retrieval.py`: evaluation CLI.
+- `run_retrieval.py`: bidirectional retrieval CLI.
+- `run_regression.py`: nested-CV video regression CLI.
 - `run_retrieval.sh`: readable full-run examples.
-- `world_embedding_benchmark/retrieval.py`: loading, caching, scoring, metrics.
+- `world_embedding_benchmark/retrieval.py`: retrieval loading, scoring, and metrics.
+- `world_embedding_benchmark/regression.py`: regression loading, probing, and metrics.
 - `world_embedding_benchmark/models/`: Transformers/vLLM LCO adapters.
 - `world_embedding_benchmark/embedding_artifacts.py`: resumable artifacts.
 - `compare_lco_backends.py`: backend parity.

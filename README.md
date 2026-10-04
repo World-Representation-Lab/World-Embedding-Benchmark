@@ -109,6 +109,24 @@ Every ridge strength is selected using only the corresponding training subset;
 the fixed test set is used only for final metrics. Training sets are prefixes of
 one deterministic order per repetition, so larger sizes contain smaller sizes.
 
+## Pair classification
+
+The fixed manifests contain one positive, one within-family negative, and one
+cross-family negative for 10 sampled queries per family. Run one branch with:
+
+```bash
+python run_pair_classification.py \
+  --manifest pair_classification_data/physics-bench/physics-bench-solid-eval.json \
+  --model lco-omni-3b --model-name ./models/LCO-Embedding-Omni-3B \
+  --backend vllm --video-decoder auto \
+  --embedding-output-dir results/pair-classification/solid/embeddings \
+  --output results/pair-classification/solid/result.json
+```
+
+The output reports within-family, cross-family, and three-way accuracy, plus
+margins and tie rates. Use `--dataset-dir` if the dataset is not under
+`datasets/`.
+
 ## Fidelity and sampling
 
 - Processor mode reproduces Qwen Omni FPS sampling while decoding only selected
@@ -120,26 +138,19 @@ one deterministic order per repetition, so larger sizes contain smaller sizes.
   normalization.
 - `compare_lco_backends.py` validates Transformers/vLLM embedding parity.
 
-## Main files
+## Repository structure
 
-- `run_retrieval.py`: bidirectional retrieval CLI.
-- `run_regression.py`: nested-CV video regression CLI.
-- `run_regression_scaling.py`: fixed-test regression scaling CLI.
-- `prepare_regression_splits.py`: deterministic split-manifest generator.
-- `run_retrieval.sh`: readable full-run examples.
-- `world_embedding_benchmark/retrieval.py`: retrieval loading, scoring, and metrics.
-- `world_embedding_benchmark/regression.py`: regression loading, probing, and metrics.
-- `world_embedding_benchmark/regression_splits.py`: reproducible test and scaling splits.
-- `world_embedding_benchmark/regression_scaling.py`: fixed-test scaling evaluation.
-- `world_embedding_benchmark/models/`: Transformers/vLLM LCO adapters.
-- `world_embedding_benchmark/embedding_artifacts.py`: resumable artifacts.
-- `compare_lco_backends.py`: backend parity.
-- `benchmark_lco_video_throughput.py`: throughput tuning.
-- `debug_lco_retrieval.py`: retrieval diagnostics.
-- `visualize_similarity_matrices.py`: embedding visualization.
-- `merge_fluid_eval_captions.py`: legacy fluid reconstruction.
-- `HANDOFF.md`: project state and next steps.
-- `ENVIRONMENT.md`: x86_64 setup and historical ARM64 notes.
+```text
+world_embedding_benchmark/   Dataset loaders, model adapters, and evaluators
+run_retrieval.py             Retrieval CLI
+run_regression.py            Nested-CV regression CLI
+run_regression_scaling.py    Fixed-test regression scaling CLI
+run_pair_classification.py   Pair-classification CLI
+prepare_*.py                 Deterministic manifest generators
+regression_splits/           Canonical regression splits
+pair_classification_data/    Canonical pair-classification manifests
+tests/                       Unit tests
+```
 
 Datasets, weights, results, caches, environments, and local build trees are
 intentionally excluded from Git.

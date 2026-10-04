@@ -1,0 +1,4301 @@
+{
+  "branch": "physics-bench-dynamics-eval",
+  "dataset_dir": "datasets/physics-bench-dynamics-eval",
+  "dataset_fingerprint": "c6f2330070ababb582539a2ee7c5be9765fca1e06aad6d5a0e7cf797af9c0ef9",
+  "examples": [
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S026"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:00",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S086"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:01",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S002"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:02",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S002__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S013"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:03",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S039"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S014"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:04",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S039__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S040"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S081"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:05",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S040__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S005"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:06",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S047"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S070"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S076"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:07",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S047__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S012"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S047"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:08",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "articulatedChain_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "articulatedChain_S002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S097"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:articulatedChain:09",
+      "family": "articulatedChain",
+      "query_id": "articulatedChain_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S016"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:00",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S102"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S085"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:01",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S102__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S057"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S061"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:02",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S100"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S037"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:03",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S058"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:04",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S051"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S072"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S058"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:05",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S051__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S027"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S016"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:06",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S027__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S020"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S043"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S080"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:07",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S020__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S057"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S064"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:08",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S057__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "blockTower3D_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "blockTower3D_S029"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S001"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:blockTower3D:09",
+      "family": "blockTower3D",
+      "query_id": "blockTower3D_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S032"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S045"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S089"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:00",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S032__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S087"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S041"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S049"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:01",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S087__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S012"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:02",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S081"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S069"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S035"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:03",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S081__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S073"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:04",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S051"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:05",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S084"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:06",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S050"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:07",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S091"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S072"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S043"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:08",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S091__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "cantileverBeamTransient_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "cantileverBeamTransient_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S015"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:cantileverBeamTransient:09",
+      "family": "cantileverBeamTransient",
+      "query_id": "cantileverBeamTransient_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S096"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S009"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:00",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S096__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S020"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:01",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S007"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:02",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S091"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S055"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:03",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S013"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S070"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:04",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S018"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:05",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S055"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S032"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S012"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:06",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S055__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S000"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S006"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:07",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S051"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:08",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "dropWeightImpactSMC_S075"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "dropWeightImpactSMC_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S029"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:dropWeightImpactSMC:09",
+      "family": "dropWeightImpactSMC",
+      "query_id": "dropWeightImpactSMC_S075__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S039"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S079"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:00",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S050"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S040"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:01",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S050__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S091"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:02",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S037"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:03",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S075"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:04",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S052"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rigidCollision_S039"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:05",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S033"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S070"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S055"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:06",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S033__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S072"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S084"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S084"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:07",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S072__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S042"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:08",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "flexibleCrankSlider_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "flexibleCrankSlider_S036"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S050"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:flexibleCrankSlider:09",
+      "family": "flexibleCrankSlider",
+      "query_id": "flexibleCrankSlider_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S068"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S036"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:00",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S068__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S015"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:01",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S085"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:02",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S076"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:03",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S088"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S074"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:04",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S088__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S084"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S016"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:05",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S004"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S060"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S091"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:06",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S004__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S017"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:07",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S070"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S033"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:08",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S070__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "gearPair3D_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "gearPair3D_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S081"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:gearPair3D:09",
+      "family": "gearPair3D",
+      "query_id": "gearPair3D_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S025"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S062"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:00",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S025__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S041"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S026"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:01",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S041__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S051"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S020"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:02",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S051__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S002"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S091"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:03",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S072"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S045"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:04",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S049"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S021"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S092"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:05",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S049__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S091"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S083"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S055"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:06",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S091__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S078"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S057"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S056"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:07",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S078__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S061"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S027"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:08",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S061__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "harmonicResponseFRF_S054"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "harmonicResponseFRF_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:harmonicResponseFRF:09",
+      "family": "harmonicResponseFRF",
+      "query_id": "harmonicResponseFRF_S054__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S057"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:00",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S063"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S092"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:01",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S063__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S072"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:02",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S049"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S094"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S026"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:03",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S049__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S041"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:04",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S056"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S062"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:05",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S056__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S034"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S055"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:06",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S034__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S091"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S053"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:07",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S090"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:08",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "j2PlasticBeam_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "j2PlasticBeam_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S028"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:j2PlasticBeam:09",
+      "family": "j2PlasticBeam",
+      "query_id": "j2PlasticBeam_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S057"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S088"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:00",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S057__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S025"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:01",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S007"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S022"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S047"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:02",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S007__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S022"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S029"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S051"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:03",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S022__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S014"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S017"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S014"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:04",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S014__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S097"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S023"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:05",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S097__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S064"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:06",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S056"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S087"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:07",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S056__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S025"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S018"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:08",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "lemaitreDamageBar_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "lemaitreDamageBar_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rigidCollision_S010"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:lemaitreDamageBar:09",
+      "family": "lemaitreDamageBar",
+      "query_id": "lemaitreDamageBar_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rigidCollision_S090"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:00",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S054"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S044"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S072"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:01",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S054__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S005"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S027"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:02",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S005__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S044"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S046"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:03",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S044__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S085"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:04",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S014"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S018"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:05",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S011"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S070"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:06",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S002"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:07",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S039"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S029"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:08",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "massSpringDamper_S031"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "massSpringDamper_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S034"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:massSpringDamper:09",
+      "family": "massSpringDamper",
+      "query_id": "massSpringDamper_S031__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S053"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S083"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:00",
+      "family": "pendulum",
+      "query_id": "pendulum_S053__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S095"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S064"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:01",
+      "family": "pendulum",
+      "query_id": "pendulum_S095__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S002"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:02",
+      "family": "pendulum",
+      "query_id": "pendulum_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S106"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S076"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S089"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:03",
+      "family": "pendulum",
+      "query_id": "pendulum_S106__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S088"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S023"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:04",
+      "family": "pendulum",
+      "query_id": "pendulum_S088__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S098"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S031"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:05",
+      "family": "pendulum",
+      "query_id": "pendulum_S098__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S069"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S095"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S076"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:06",
+      "family": "pendulum",
+      "query_id": "pendulum_S069__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S015"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S020"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:07",
+      "family": "pendulum",
+      "query_id": "pendulum_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S071"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S049"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:08",
+      "family": "pendulum",
+      "query_id": "pendulum_S071__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "pendulum_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "pendulum_S059"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lemaitreDamageBar_S079"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:pendulum:09",
+      "family": "pendulum",
+      "query_id": "pendulum_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S005"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S086"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:00",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S066"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S070"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:01",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S066__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S004"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S071"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:02",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S046__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S003"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S053"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:03",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S003__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S051"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S058"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:04",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S051__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S086"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S046"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:05",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S021"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S007"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S087"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:06",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S021__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S069"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S001"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:07",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S069__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S081"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S009"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:08",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "reissnerShellModal_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "reissnerShellModal_S006"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S091"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:reissnerShellModal:09",
+      "family": "reissnerShellModal",
+      "query_id": "reissnerShellModal_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S085"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:00",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S085__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S003"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S030"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:01",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S082"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lemaitreDamageBar_S082"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:02",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S052"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S046"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:03",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S005"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:04",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S088"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S061"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:05",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S079"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S028"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:06",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S064"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S057"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:07",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S064__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S088"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S077"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S030"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:08",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S088__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rigidCollision_S015"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rigidCollision_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pendulum_S103"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rigidCollision:09",
+      "family": "rigidCollision",
+      "query_id": "rigidCollision_S015__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S003"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S083"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:00",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S093"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S078"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S008"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:01",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S093__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S086"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S055"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rigidCollision_S021"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:02",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S086__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S008"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S027"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:03",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S008__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pendulum_S026"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:04",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S067"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S030"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "unbalancedRotor3D_S027"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:05",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S067__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S030"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:06",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S074"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S010"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:07",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S074__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S061"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:08",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rollingSlidingTransition_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rollingSlidingTransition_S073"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S024"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rollingSlidingTransition:09",
+      "family": "rollingSlidingTransition",
+      "query_id": "rollingSlidingTransition_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S027"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S048"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:00",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S061"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S060"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:01",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S042"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S050"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S053"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:02",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S042__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S070"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:03",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S065"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S040"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S042"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:04",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S065__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S037"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S028"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:05",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S098"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lemaitreDamageBar_S049"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:06",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "lemaitreDamageBar_S017"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:07",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S029"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S034"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S030"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:08",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S029__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "rubberBlockCompression_S044"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "rubberBlockCompression_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S035"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:rubberBlockCompression:09",
+      "family": "rubberBlockCompression",
+      "query_id": "rubberBlockCompression_S044__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S076"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S063"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S056"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:00",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S076__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S026"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S081"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:01",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S097"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S010"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:02",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S035"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S023"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S098"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:03",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S035__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S093"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S087"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:04",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S024"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S033"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:05",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S057"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S053"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S099"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:06",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S057__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S039"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rubberBlockCompression_S090"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:07",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S039__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S010"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rigidCollision_S093"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:08",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S010__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "sphereDrop3D_S048"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "sphereDrop3D_S040"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:sphereDrop3D:09",
+      "family": "sphereDrop3D",
+      "query_id": "sphereDrop3D_S048__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S045"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S003"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pendulum_S003"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:00",
+      "family": "stackStability",
+      "query_id": "stackStability_S045__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S043"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S089"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S074"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:01",
+      "family": "stackStability",
+      "query_id": "stackStability_S043__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S011"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S058"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S001"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:02",
+      "family": "stackStability",
+      "query_id": "stackStability_S011__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S075"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S038"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "dropWeightImpactSMC_S092"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:03",
+      "family": "stackStability",
+      "query_id": "stackStability_S075__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S000"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S035"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:04",
+      "family": "stackStability",
+      "query_id": "stackStability_S000__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S077"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S069"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "massSpringDamper_S021"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:05",
+      "family": "stackStability",
+      "query_id": "stackStability_S077__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S031"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S042"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S019"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:06",
+      "family": "stackStability",
+      "query_id": "stackStability_S031__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S006"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S010"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S001"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:07",
+      "family": "stackStability",
+      "query_id": "stackStability_S006__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S072"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S040"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "cantileverBeamTransient_S059"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:08",
+      "family": "stackStability",
+      "query_id": "stackStability_S072__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stackStability_S080"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stackStability_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S060"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stackStability:09",
+      "family": "stackStability",
+      "query_id": "stackStability_S080__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S051"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S057"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pendulum_S071"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:00",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S051__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S090"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S018"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S050"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:01",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S090__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S002"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S062"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S026"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:02",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S002__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S024"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S096"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S029"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:03",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S024__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S013"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S019"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S075"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:04",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S013__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S016"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S064"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "j2PlasticBeam_S086"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:05",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S016__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S038"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S038"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:06",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S038__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S058"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S092"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S029"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:07",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S058__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S089"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S065"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "blockTower3D_S079"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:08",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S089__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "stressWavePropagation_S083"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "stressWavePropagation_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "sphereDrop3D_S016"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:stressWavePropagation:09",
+      "family": "stressWavePropagation",
+      "query_id": "stressWavePropagation_S083__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S099"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S067"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stressWavePropagation_S070"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:00",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S099__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S075"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S068"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "flexibleCrankSlider_S010"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:01",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S075__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S009"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S071"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "stackStability_S002"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:02",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S009__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S036"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S008"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "rollingSlidingTransition_S086"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:03",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S036__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S094"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S049"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S081"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:04",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S094__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S023"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S035"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "pendulum_S107"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:05",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S023__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S028"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S016"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "articulatedChain_S075"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:06",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S028__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S012"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S020"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "gearPair3D_S091"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:07",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S012__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S001"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S008"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "reissnerShellModal_S057"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:08",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S001__full__0"
+    },
+    {
+      "candidates": [
+        {
+          "index": 0,
+          "role": "positive",
+          "video_id": "unbalancedRotor3D_S046"
+        },
+        {
+          "index": 1,
+          "role": "within_family_negative",
+          "video_id": "unbalancedRotor3D_S080"
+        },
+        {
+          "index": 2,
+          "role": "cross_family_negative",
+          "video_id": "harmonicResponseFRF_S080"
+        }
+      ],
+      "example_id": "physics-bench-dynamics-eval:unbalancedRotor3D:09",
+      "family": "unbalancedRotor3D",
+      "query_id": "unbalancedRotor3D_S046__full__0"
+    }
+  ],
+  "excluded_queries": {},
+  "families": {
+    "articulatedChain": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "blockTower3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "cantileverBeamTransient": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "dropWeightImpactSMC": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "flexibleCrankSlider": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "gearPair3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "harmonicResponseFRF": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "j2PlasticBeam": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "lemaitreDamageBar": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "massSpringDamper": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "pendulum": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "reissnerShellModal": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "rigidCollision": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "rollingSlidingTransition": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "rubberBlockCompression": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "sphereDrop3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "stackStability": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "stressWavePropagation": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    },
+    "unbalancedRotor3D": {
+      "available_queries": 100,
+      "available_videos": 100,
+      "sampled_queries": 10
+    }
+  },
+  "num_examples": 190,
+  "num_families": 19,
+  "sampling": {
+    "base_seed": 42,
+    "candidate_order": [
+      "positive",
+      "within_family_negative",
+      "cross_family_negative"
+    ],
+    "negative_trials_per_query": 1,
+    "queries_per_family": 10,
+    "strategy": "uniform_without_replacement_per_family"
+  },
+  "task": "text_video_pair_classification",
+  "text_column": "parsed_text",
+  "version": 1
+}

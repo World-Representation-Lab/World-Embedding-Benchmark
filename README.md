@@ -40,22 +40,29 @@ Each family is a directory containing Parquet shards with `query_id`, `case_id`,
 ```bash
 python run_retrieval.py \
   --dataset-dir datasets/physics-bench-solid-eval \
-  --model lco-omni-3b --backend vllm \
-  --vllm-max-model-len 4096 --vllm-gpu-memory-utilization 0.5 \
+  --model lco-omni-3b --model-name ./models/LCO-Embedding-Omni-3B \
+  --backend vllm \
+  --vllm-max-model-len 32768 --vllm-gpu-memory-utilization 0.7 \
   --video-sampling processor --fps 2 --max-frames 128 \
-  --batch-size 1 --video-prefetch-batches 1 \
+  --batch-size 4 --video-prefetch-batches 2 \
+  --video-decode-workers 8 --video-decoder auto --no-vllm-enforce-eager \
   --text-column parsed_text --limit-videos-per-family 1 \
   --output results/solid_lco_3b_smoke.json
 ```
 
-Remove the limit for a full run. Start with batch 1/prefetch 1, then benchmark
-larger values on the target server. Registered model keys are `lco-omni-3b` and
+Remove the limit for a full run. The shown batch, prefetch, and worker values were
+fast on a dual RTX 6000D server; benchmark them on the target hardware. Decoder
+`auto` prefers TorchCodec and emits a warning before falling back to selective
+FFmpeg decoding. Registered model keys are `lco-omni-3b` and
 `lco-omni-7b`; `--model-name` overrides their Hugging Face checkpoints.
 
 ## Fidelity and sampling
 
 - Processor mode reproduces Qwen Omni FPS sampling while decoding only selected
-  frames; fixed mode uniformly selects exactly `--num-frames N` frames.
+  frames. `--video-decoder auto` prefers TorchCodec indexed decoding and falls
+  back to selective FFmpeg decoding; explicit `torchcodec` fails fast if its
+  runtime is unavailable. Fixed mode currently uses FFmpeg and uniformly selects
+  exactly `--num-frames N` frames.
 - Both backends preserve LCO's compression prompts, LAST-token pooling, and L2
   normalization.
 - `compare_lco_backends.py` validates Transformers/vLLM embedding parity.

@@ -53,8 +53,21 @@ python run_retrieval.py \
 Remove the limit for a full run. The shown batch, prefetch, and worker values were
 fast on a dual RTX 6000D server; benchmark them on the target hardware. Decoder
 `auto` prefers TorchCodec and emits a warning before falling back to selective
-FFmpeg decoding. Registered model keys are `lco-omni-3b` and
-`lco-omni-7b`; `--model-name` overrides their Hugging Face checkpoints.
+FFmpeg decoding. `--model-name` overrides a key's Hugging Face checkpoint.
+
+## Registered models
+
+| Key | Backend | Notes |
+| --- | --- | --- |
+| `lco-omni-3b`, `lco-omni-7b` | `transformers`, `vllm` | |
+| `qwen3-vl-embedding-2b`, `qwen3-vl-embedding-8b` | `vllm` | Instruction-conditioned; pass `--batch-size 4` |
+| `nv-omni-embed-3b` | `transformers` | Bidirectional text tower, so vLLM would mis-encode it |
+
+Qwen3-VL-Embedding prepends a task instruction to each side, defaulting to
+retrieving a physics video from a caption and the reverse. Omni-Embed-Nemotron
+uses the `query: ` and `passage: ` prefixes shipped with the checkpoint. Both
+reuse the LCO TorchCodec sampler, so `--fps` and `--max-frames` mean the same
+thing across models.
 
 ## Video regression
 

@@ -62,6 +62,7 @@ FFmpeg decoding. `--model-name` overrides a key's Hugging Face checkpoint.
 | `lco-omni-3b`, `lco-omni-7b` | `transformers`, `vllm` | |
 | `qwen3-vl-embedding-2b`, `qwen3-vl-embedding-8b` | `vllm` | Instruction-conditioned; pass `--batch-size 4` |
 | `nv-omni-embed-3b` | `transformers` | Bidirectional text tower, so vLLM would mis-encode it |
+| `vjepa2-vitl`, `vjepa2-vitg` | `transformers` | Video only; regression CLIs only |
 
 Qwen3-VL-Embedding prepends a task instruction to each side, defaulting to
 retrieving a physics video from a caption and the reverse. Omni-Embed-Nemotron
@@ -140,6 +141,33 @@ The output reports within-family, cross-family, and three-way accuracy, plus
 margins and tie rates. Use `--dataset-dir` if the dataset is not under
 `datasets/`.
 
+### Prompting a generative model
+
+A generative model produces no similarity score, so `run_mllm_pair_classification.py`
+turns each triple into two binary questions and asks which of two videos matches
+the caption:
+
+```bash
+python run_mllm_pair_classification.py \
+  --manifest pair_classification_data/physics-bench/physics-bench-solid-eval.json \
+  --model-name Qwen/Qwen3-VL-8B-Instruct \
+  --num-frames 16 --batch-size 4 \
+  --output results/mllm-pair-classification/solid/result.json
+```
+
+Every question is asked twice with the candidates swapped, because generative
+models are sensitive to option order. `accuracy` scores the two answers
+independently and averages them, so a model that always names the same position
+lands at the 0.5 chance level, matching the embedding metric;
+`both_orders_accuracy` is the stricter conjunction, where chance is 0.25.
+`pick_a_rate` reports how lopsided the choices were. Answers are constrained to
+a single letter by vLLM structured output, so no parsing is involved.
+
+Only Qwen multimodal checkpoints have been tested: the prompt is assembled with
+the processor's chat template and frames are passed with the metadata those
+models expect. Unlike the retrieval adapters, frames are spread evenly over the
+whole clip rather than sampled at a fixed rate.
+
 ## Fidelity and sampling
 
 - Processor mode reproduces Qwen Omni FPS sampling while decoding only selected
@@ -159,6 +187,7 @@ run_retrieval.py             Retrieval CLI
 run_regression.py            Nested-CV regression CLI
 run_regression_scaling.py    Fixed-test regression scaling CLI
 run_pair_classification.py   Pair-classification CLI
+run_mllm_pair_classification.py  Pair classification by prompting an MLLM
 prepare_*.py                 Deterministic manifest generators
 regression_splits/           Canonical regression splits
 pair_classification_data/    Canonical pair-classification manifests

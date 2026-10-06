@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections.abc import Sequence
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
+import os
 from pathlib import Path
 from typing import Any
 
@@ -56,6 +57,10 @@ class LCOVLLMEmbedding:
         self.video_decoder = resolve_video_decoder(
             self.video_decoder, video_sampling=self.video_sampling
         )
+        # The LCO architecture is registered at runtime and is therefore not
+        # visible to vLLM's separately spawned engine process.
+        os.environ["VLLM_ENABLE_V1_MULTIPROCESSING"] = "0"
+
         try:
             from transformers import Qwen2_5OmniProcessor
             from vllm import LLM

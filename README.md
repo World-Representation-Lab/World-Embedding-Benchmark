@@ -20,8 +20,7 @@ python -m pip install -r requirements.txt
 huggingface-cli login
 ```
 
-Use official prebuilt PyTorch/vLLM wheels on x86_64. Do not repeat the DGX
-Spark ARM64 source-build procedure described in `ENVIRONMENT.md`.
+Use official prebuilt PyTorch and vLLM wheels on x86_64.
 
 ## Data
 
@@ -200,7 +199,6 @@ whole clip rather than sampled at a fixed rate.
   exactly `--num-frames N` frames.
 - Both backends preserve LCO's compression prompts, LAST-token pooling, and L2
   normalization.
-- `compare_lco_backends.py` validates Transformers/vLLM embedding parity.
 
 ## Repository structure
 

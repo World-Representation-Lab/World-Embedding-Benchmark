@@ -63,8 +63,8 @@ class LCOVLLMEmbedding:
             from vllm.model_executor.models import ModelRegistry
         except ImportError as exc:
             raise RuntimeError(
-                "Install the pinned vLLM environment described in ENVIRONMENT.md "
-                "before using --backend vllm."
+                "Install the versions pinned in requirements.txt before using "
+                "--backend vllm."
             ) from exc
 
         from .vllm_lco_model import (

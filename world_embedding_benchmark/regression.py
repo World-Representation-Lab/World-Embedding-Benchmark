@@ -60,7 +60,7 @@ def load_regression_data(
     dataset_dir: str | Path,
     subset: str,
     *,
-    split: str = "train",
+    split: str = "test",
     limit: int | None = None,
 ) -> list[RegressionItem]:
     try:
@@ -106,7 +106,7 @@ def evaluate_video_regression(
     dataset_dir: str | Path,
     subset: str,
     model_name: str,
-    split: str = "train",
+    split: str = "test",
     batch_size: int = 4,
     folds: int = 5,
     inner_folds: int = 4,

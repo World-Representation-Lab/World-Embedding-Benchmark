@@ -61,7 +61,7 @@ def evaluate_video_regression_scaling(
     subset: str,
     split_manifest: str | Path,
     model_name: str,
-    split: str = "train",
+    split: str = "test",
     batch_size: int = 4,
     inner_folds: int = 4,
     alphas: Sequence[float] = DEFAULT_ALPHAS,

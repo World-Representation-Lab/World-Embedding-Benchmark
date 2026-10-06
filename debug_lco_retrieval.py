@@ -28,7 +28,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Minimal single-file LCO text-video retrieval debugger."
     )
-    parser.add_argument("--dataset-dir", default="datasets/physics-bench-solid-eval")
+    parser.add_argument("--dataset-dir", default="datasets/World-Embedding-Solid-Retrieval")
     parser.add_argument("--text-column", default="parsed_text")
     parser.add_argument("--model-name", default="/workspace/mteb-main/checkpoints/LCO-Embedding-Omni-3B")
     parser.add_argument("--batch-size", type=int, default=1)

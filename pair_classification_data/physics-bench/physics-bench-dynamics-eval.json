@@ -1,6 +1,6 @@
 {
   "branch": "physics-bench-dynamics-eval",
-  "dataset_dir": "datasets/physics-bench-dynamics-eval",
+  "dataset_dir": "datasets/World-Embedding-Dynamics-Retrieval",
   "dataset_fingerprint": "c6f2330070ababb582539a2ee7c5be9765fca1e06aad6d5a0e7cf797af9c0ef9",
   "examples": [
     {

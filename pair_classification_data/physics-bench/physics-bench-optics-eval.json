@@ -1,6 +1,6 @@
 {
   "branch": "physics-bench-optics-eval",
-  "dataset_dir": "datasets/physics-bench-optics-eval",
+  "dataset_dir": "datasets/World-Embedding-Optics-Retrieval",
   "dataset_fingerprint": "0cdabab7b74f201a83ec6986fc9500fd8c6d3659cb2f8482f4f9f53c3a142a7f",
   "examples": [
     {

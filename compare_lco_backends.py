@@ -14,7 +14,7 @@ import numpy as np
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dataset-dir", default="datasets/physics-bench-solid-eval")
+    parser.add_argument("--dataset-dir", default="datasets/World-Embedding-Solid-Retrieval")
     parser.add_argument("--model", default="lco-omni-3b")
     parser.add_argument("--model-name")
     parser.add_argument("--video-sampling", choices=["processor", "fixed"], default="processor")

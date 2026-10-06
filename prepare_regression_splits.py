@@ -15,7 +15,7 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Create deterministic fixed-test manifests for video regression."
     )
-    parser.add_argument("--dataset-dir", default="datasets/physics-bench-regression-500")
+    parser.add_argument("--dataset-dir", default="datasets/World-Embedding-Regression")
     parser.add_argument("--subset", action="append", choices=REGRESSION_CONFIGS)
     parser.add_argument("--output-dir", default="regression_splits/physics-bench-regression-500")
     parser.add_argument("--test-size", type=int, default=100)

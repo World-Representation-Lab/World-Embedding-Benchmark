@@ -23,23 +23,46 @@ huggingface-cli login
 Use official prebuilt PyTorch/vLLM wheels on x86_64. Do not repeat the DGX
 Spark ARM64 source-build procedure described in `ENVIRONMENT.md`.
 
-Place datasets under:
+## Data
 
-```text
-datasets/physics-bench-solid-eval
-datasets/physics-bench-optics-eval
-datasets/physics-bench-fluid-eval
-datasets/physics-bench-dynamics-eval
+The datasets are available in the [World Embedding Benchmark collection](https://huggingface.co/collections/World-Representation-Lab/world-embedding-benchmark):
+
+| Dataset | Hugging Face repository |
+| --- | --- |
+| Dynamics retrieval | [`World-Embedding-Dynamics-Retrieval`](https://huggingface.co/datasets/World-Representation-Lab/World-Embedding-Dynamics-Retrieval) |
+| Fluid retrieval | [`World-Embedding-Fluid-Retrieval`](https://huggingface.co/datasets/World-Representation-Lab/World-Embedding-Fluid-Retrieval) |
+| Optics retrieval | [`World-Embedding-Optics-Retrieval`](https://huggingface.co/datasets/World-Representation-Lab/World-Embedding-Optics-Retrieval) |
+| Solid retrieval | [`World-Embedding-Solid-Retrieval`](https://huggingface.co/datasets/World-Representation-Lab/World-Embedding-Solid-Retrieval) |
+| Regression | [`World-Embedding-Regression`](https://huggingface.co/datasets/World-Representation-Lab/World-Embedding-Regression) |
+
+Download all five repositories into `datasets/`:
+
+```bash
+python download.py
 ```
 
-Each family is a directory containing Parquet shards with `query_id`, `case_id`,
-`raw_text`, `parsed_text`, and `video` columns.
+Retrieval datasets have one `test` split. Regression uses one config per physics
+family and also has only a `test` split:
+
+```python
+from datasets import load_dataset
+
+solid = load_dataset(
+    "World-Representation-Lab/World-Embedding-Solid-Retrieval",
+    split="test",
+)
+pendulum = load_dataset(
+    "World-Representation-Lab/World-Embedding-Regression",
+    "pendulum",
+    split="test",
+)
+```
 
 ## Smoke test
 
 ```bash
 python run_retrieval.py \
-  --dataset-dir datasets/physics-bench-solid-eval \
+  --dataset-dir datasets/World-Embedding-Solid-Retrieval \
   --model lco-omni-3b --model-name ./models/LCO-Embedding-Omni-3B \
   --backend vllm \
   --vllm-max-model-len 32768 --vllm-gpu-memory-utilization 0.7 \
@@ -79,7 +102,7 @@ training fold. Feature and target standardization are fit on training data only.
 
 ```bash
 python run_regression.py \
-  --dataset-dir datasets/physics-bench-regression-500 \
+  --dataset-dir datasets/World-Embedding-Regression \
   --subset pendulum \
   --model lco-omni-3b --model-name ./models/LCO-Embedding-Omni-3B \
   --backend vllm --video-decoder auto \

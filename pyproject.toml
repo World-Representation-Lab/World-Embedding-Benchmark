@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "world-embedding-benchmark"
+version = "0.1.0"
+description = "Evaluation code for the World Embedding Benchmark"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+  { name = "World Representation Lab" },
+]
+dynamic = ["dependencies"]
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2610.03632"
+Repository = "https://github.com/World-Representation-Lab/World-Embedding-Benchmark"
+Datasets = "https://huggingface.co/collections/World-Representation-Lab/world-embedding-benchmark"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+include = ["world_embedding_benchmark*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

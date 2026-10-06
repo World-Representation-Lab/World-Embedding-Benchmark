@@ -369,9 +369,6 @@ def _parse_rate(rate: str) -> float:
 
 
 LCO_CHECKPOINTS: dict[str, str] = {
-    # "lco-omni-3b": "LCO-Embedding/LCO-Embedding-Omni-3B",
-    # "lco-omni-7b": "LCO-Embedding/LCO-Embedding-Omni-7B",
-    # "lco-omni-3b-2605": "LCO-Embedding/LCO-Embedding-Omni-3B-2605",
     "lco-omni-3b": "LCO-Embedding/LCO-Embedding-Omni-3B",
     "lco-omni-7b": "LCO-Embedding/LCO-Embedding-Omni-7B",
 }

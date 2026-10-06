@@ -1,12 +1,15 @@
 # World Embedding Benchmark
 
-Text-video retrieval and video-representation regression for PhysicsBench,
-with faithful LCO-Embedding inference through Transformers and vLLM.
+Evaluation code for the World Embedding Benchmark, covering bidirectional
+text-video retrieval, video-representation regression, and video-description
+pair classification across fluid mechanics, solid mechanics, dynamics, and
+optics.
 
 The benchmark uses `parsed_text` as the default text prompt and the embedded
 Parquet `video` field as video input. It reports text-to-video and video-to-text
 Recall, MRR, and nDCG globally and per family, and can save embeddings,
-similarity matrices, checkpoints, and family-confusion tables.
+similarity matrices, checkpoints, and family-confusion tables. Model adapters
+support LCO-Embedding, Qwen3-VL-Embedding, Omni-Embed-Nemotron, and V-JEPA 2.
 
 ## Quick start (standard x86_64 CUDA server)
 
@@ -16,8 +19,7 @@ sudo apt-get install -y ffmpeg python3.12-venv
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
-python -m pip install -r requirements.txt
-huggingface-cli login
+python -m pip install -e .
 ```
 
 Use official prebuilt PyTorch and vLLM wheels on x86_64.
@@ -218,9 +220,10 @@ tests/                       Unit tests
 Datasets, weights, results, caches, environments, and local build trees are
 intentionally excluded from Git.
 
-
 ## Citation
+
 If you find our work useful, please cite our [paper](https://arxiv.org/abs/2610.03632):
+
 ```bibtex
 @misc{liu2026worldembeddingbenchmark,
 title         = {World Embedding Benchmark},
@@ -231,3 +234,4 @@ archivePrefix = {arXiv},
 primaryClass  = {cs.CV},
 url           = {https://arxiv.org/abs/2610.03632}
 }
+```

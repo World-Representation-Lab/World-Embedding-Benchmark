@@ -1,6 +1,6 @@
 {
   "branch": "physics-bench-solid-eval",
-  "dataset_dir": "datasets/physics-bench-solid-eval",
+  "dataset_dir": "datasets/World-Embedding-Solid-Retrieval",
   "dataset_fingerprint": "648d365d65a20ce08519974b3929f8d854a1eeba22a55fd6656aefdeb7a522ee",
   "examples": [
     {

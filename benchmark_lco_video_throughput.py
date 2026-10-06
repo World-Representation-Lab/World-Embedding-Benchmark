@@ -21,7 +21,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Benchmark bounded LCO video batching.")
     parser.add_argument("--num-videos", type=int, default=8)
     args = parser.parse_args()
-    paths = sorted(Path("datasets/physics-bench-solid-eval/.video_cache").glob("*.mp4"))
+    paths = sorted(Path("datasets/World-Embedding-Solid-Retrieval/.video_cache").glob("*.mp4"))
     configurations = ((1, 0), (1, 1), (2, 1), (4, 1), (4, 2))
     sample_count = args.num_videos * len(configurations) + 1
     step = max(1, len(paths) // sample_count)

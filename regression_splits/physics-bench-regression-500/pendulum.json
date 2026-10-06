@@ -1,5 +1,5 @@
 {
-  "dataset": "physics-bench-regression-500",
+  "dataset": "World-Embedding-Regression",
   "dataset_fingerprint": "ab5c86886799a255c900d18550577e42dc1ad69eb8971c54ff70cef3964b5d54",
   "num_examples": 500,
   "scaling": {
@@ -2040,7 +2040,7 @@
       400
     ]
   },
-  "source_split": "train",
+  "source_split": "test",
   "split": {
     "base_seed": 42,
     "effective_seed": 3899008068856996254,

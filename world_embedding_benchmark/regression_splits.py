@@ -20,7 +20,7 @@ def build_regression_split_manifest(
     items: Sequence[RegressionItem],
     *,
     subset: str,
-    split: str = "train",
+    split: str = "test",
     test_size: int = 100,
     num_strata: int = 10,
     split_seed: int = DEFAULT_SPLIT_SEED,
@@ -69,7 +69,7 @@ def build_regression_split_manifest(
 
     return {
         "version": SPLIT_MANIFEST_VERSION,
-        "dataset": "physics-bench-regression-500",
+        "dataset": "World-Embedding-Regression",
         "subset": subset,
         "source_split": split,
         "num_examples": len(items),

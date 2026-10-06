@@ -1,6 +1,6 @@
 {
   "branch": "physics-bench-fluid-eval",
-  "dataset_dir": "datasets/physics-bench-fluid-eval",
+  "dataset_dir": "datasets/World-Embedding-Fluid-Retrieval",
   "dataset_fingerprint": "1585550287cb676a4e2d1fe70e876f206e058ec61e496765838de6b5dba2a0a6",
   "examples": [
     {

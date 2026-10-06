@@ -16,10 +16,10 @@ def parse_args() -> argparse.Namespace:
         description="Evaluate video representations with nested-CV ridge regression."
     )
     parser.add_argument(
-        "--dataset-dir", default="datasets/physics-bench-regression-500"
+        "--dataset-dir", default="datasets/World-Embedding-Regression"
     )
     parser.add_argument("--subset", required=True, choices=REGRESSION_CONFIGS)
-    parser.add_argument("--split", default="train")
+    parser.add_argument("--split", default="test")
     parser.add_argument("--model", default="lco-omni-3b")
     parser.add_argument("--model-name")
     parser.add_argument(

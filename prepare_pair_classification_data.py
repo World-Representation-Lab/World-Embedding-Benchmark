@@ -4,8 +4,13 @@ from pathlib import Path
 
 from world_embedding_benchmark.pair_classification_data import create_pair_classification_manifest
 
-BRANCHES = ("physics-bench-dynamics-eval", "physics-bench-fluid-eval",
-            "physics-bench-optics-eval", "physics-bench-solid-eval")
+DATASET_DIRS = {
+    "physics-bench-dynamics-eval": "World-Embedding-Dynamics-Retrieval",
+    "physics-bench-fluid-eval": "World-Embedding-Fluid-Retrieval",
+    "physics-bench-optics-eval": "World-Embedding-Optics-Retrieval",
+    "physics-bench-solid-eval": "World-Embedding-Solid-Retrieval",
+}
+BRANCHES = tuple(DATASET_DIRS)
 
 
 def main() -> None:
@@ -21,7 +26,7 @@ def main() -> None:
     for branch in args.branch or BRANCHES:
         output = Path(args.output_dir) / f"{branch}.json"
         result = create_pair_classification_manifest(
-            Path(args.datasets_root) / branch, output, branch=branch,
+            Path(args.datasets_root) / DATASET_DIRS[branch], output, branch=branch,
             text_column=args.text_column, queries_per_family=args.queries_per_family, seed=args.seed)
         summaries.append({"branch": branch, "families": result["num_families"],
                           "examples": result["num_examples"], "output": str(output)})

@@ -20,20 +20,16 @@ def parse_args() -> argparse.Namespace:
             "captions from the ID-matched correct-caption dataset."
         )
     )
-    parser.add_argument(
-        "--ordered-source",
-        default="datasets/physics-bench-fluid-eval-correct-order-wrong-caption",
-    )
-    parser.add_argument(
-        "--caption-source",
-        default="datasets/physics-bench-fluid-eval-wrong-order-correct-caption",
-    )
-    parser.add_argument("--output", default="datasets/physics-bench-fluid-eval")
+    parser.add_argument("--ordered-source", required=True)
+    parser.add_argument("--caption-source", required=True)
+    parser.add_argument("--output", default="datasets/World-Embedding-Fluid-Retrieval")
     return parser.parse_args()
 
 
 def parquet_files(root: Path) -> list[Path]:
-    files = sorted(root.glob("*/train-*.parquet"))
+    files = sorted(root.glob("*/test-*.parquet"))
+    if not files:
+        files = sorted(root.glob("*/train-*.parquet"))
     if not files:
         raise FileNotFoundError(f"No family Parquet files found under {root}")
     return files

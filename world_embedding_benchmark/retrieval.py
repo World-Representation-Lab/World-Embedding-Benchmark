@@ -415,19 +415,24 @@ def load_retrieval_data(
 
 
 def _load_hf_table_data(dataset_dir: Path, *, text_column: str) -> RetrievalData | None:
-    family_parquets = sorted(dataset_dir.glob("*/train-*.parquet"))
+    family_parquets = sorted(dataset_dir.glob("*/test-*.parquet"))
+    if not family_parquets:
+        family_parquets = sorted(dataset_dir.glob("*/train-*.parquet"))
     if family_parquets:
         return _load_family_parquet_data(
             dataset_dir, family_parquets=family_parquets, text_column=text_column
         )
 
-    metadata_path = dataset_dir / "train" / "metadata.parquet"
-    if not metadata_path.exists():
+    split_name = next(
+        (name for name in ("test", "train") if (dataset_dir / name / "metadata.parquet").exists()),
+        None,
+    )
+    if split_name is None:
         return None
 
     from datasets import Video, load_dataset
 
-    dataset = load_dataset(str(dataset_dir))["train"].cast_column("video", Video(decode=False))
+    dataset = load_dataset(str(dataset_dir))[split_name].cast_column("video", Video(decode=False))
     if text_column not in dataset.column_names:
         raise ValueError(
             f"Query column {text_column!r} not found. Available columns: {dataset.column_names}"
@@ -440,7 +445,7 @@ def _load_hf_table_data(dataset_dir: Path, *, text_column: str) -> RetrievalData
         family = str(row["family"]) if row.get("family") is not None else None
         video_path = Path(row["video"]["path"])
         if not video_path.exists():
-            video_path = dataset_dir / "train" / "videos" / f"{item_id}.mp4"
+            video_path = dataset_dir / split_name / "videos" / f"{item_id}.mp4"
         if not video_path.exists():
             raise FileNotFoundError(f"Video for {item_id!r} not found: {video_path}")
         videos.append(VideoItem(item_id=item_id, video_path=video_path, family=family, metadata=dict(row)))
@@ -473,7 +478,7 @@ def _load_family_parquet_data(
     for parquet_path in family_parquets:
         family = parquet_path.parent.name
         dataset = load_dataset(
-            "parquet", data_files={"train": str(parquet_path)}, split="train"
+            "parquet", data_files={"test": str(parquet_path)}, split="test"
         ).cast_column("video", Video(decode=False))
         if text_column not in dataset.column_names:
             raise ValueError(

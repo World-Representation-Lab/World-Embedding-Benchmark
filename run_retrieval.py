@@ -9,7 +9,7 @@ from world_embedding_benchmark.retrieval import evaluate_text_video_retrieval_su
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run bidirectional text-video retrieval.")
-    parser.add_argument("--dataset-dir", default="datasets/physics-bench-solid-eval")
+    parser.add_argument("--dataset-dir", default="datasets/World-Embedding-Solid-Retrieval")
     parser.add_argument("--model", default="lco-omni-3b")
     parser.add_argument("--backend", choices=["transformers", "vllm"], default="transformers")
     parser.add_argument("--vllm-max-model-len", type=int, default=32768)

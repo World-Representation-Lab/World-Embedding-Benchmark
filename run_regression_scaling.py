@@ -15,10 +15,10 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Run fixed-test video-regression scaling evaluation."
     )
-    parser.add_argument("--dataset-dir", default="datasets/physics-bench-regression-500")
+    parser.add_argument("--dataset-dir", default="datasets/World-Embedding-Regression")
     parser.add_argument("--subset", required=True, choices=REGRESSION_CONFIGS)
     parser.add_argument("--split-manifest")
-    parser.add_argument("--split", default="train")
+    parser.add_argument("--split", default="test")
     parser.add_argument("--model", default="lco-omni-3b")
     parser.add_argument("--model-name")
     parser.add_argument("--backend", choices=["transformers", "vllm"], default="transformers")

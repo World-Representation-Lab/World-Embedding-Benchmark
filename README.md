@@ -217,3 +217,17 @@ tests/                       Unit tests
 
 Datasets, weights, results, caches, environments, and local build trees are
 intentionally excluded from Git.
+
+
+## Citation
+If you find our work useful, please cite our [paper](https://arxiv.org/abs/2610.03632):
+```bibtex
+@misc{liu2026worldembeddingbenchmark,
+title         = {World Embedding Benchmark},
+author        = {Yiqi Liu and Ruifeng Yuan and Yang Wang and Long Li and Fengyu Cai and Hou Pong Chan and Jialin Yu and Hao Zhang and Chenghua Lin and Chenghao Xiao},
+year          = {2026},
+eprint        = {2610.03632},
+archivePrefix = {arXiv},
+primaryClass  = {cs.CV},
+url           = {https://arxiv.org/abs/2610.03632}
+}

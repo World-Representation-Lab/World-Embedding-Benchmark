@@ -1,0 +1,84 @@
+{
+  "domain": "optics",
+  "family": "thinLensFocus",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "thinLensFocus",
+        "family": "thinLensFocus",
+        "case_prefix": "thinLensFocus",
+        "case_name": "thinLensFocus_S000",
+        "description": "Thin-lens focusing with a sensor-distance sweep around the focal plane.",
+        "dim": "3D",
+        "optics": {
+          "model": "thin_lens",
+          "phenomena": [
+            "imaging",
+            "focus"
+          ],
+          "lens": {
+            "focal_length": 0.35,
+            "aperture_radius": 0.05,
+            "object_distance": 0.95
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "point_object",
+            "source_distance": 0.95,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.55,
+          "screen_half_width": 0.4,
+          "screen_half_height": 0.4
+        },
+        "scan": {
+          "parameter": "sensor_distance",
+          "start": 0.2,
+          "stop": 0.9,
+          "count": 36,
+          "units": "m"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.45,
+            0.45,
+            -0.45,
+            0.45
+          ],
+          "ray_bundle_count": 11
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "focus",
+          "thin-lens",
+          "imaging"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

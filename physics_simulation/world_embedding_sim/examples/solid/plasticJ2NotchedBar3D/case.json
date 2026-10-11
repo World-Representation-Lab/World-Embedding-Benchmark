@@ -1,0 +1,78 @@
+{
+  "domain": "solid",
+  "family": "plasticJ2NotchedBar3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "plasticJ2NotchedBar3D",
+    "family": "plasticJ2NotchedBar3D",
+    "case_prefix": "plasticJ2NotchedBar3D",
+    "case_name": "plasticJ2NotchedBar3D_S000",
+    "description": "3D J2 plastic notched bar under tension",
+    "dim": "3D",
+    "material": {
+      "model": "j2_plastic",
+      "E": 180000000000,
+      "nu": 0.34,
+      "rho": 1100,
+      "yield_stress": 390000000,
+      "hardening_modulus": 630000000
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 2.9,
+      "ly": 0.37,
+      "thickness": 0.048,
+      "lz": 0.81,
+      "shape_3d": "notched_bar_3d",
+      "notch_depth_ratio": 0.098,
+      "notch_width_ratio": 0.11,
+      "notch_plane_x": 1.3
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.034,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "j2_plasticity",
+      "params": {
+        "yield_stress": 390000000,
+        "hardening_modulus": 630000000,
+        "plastic_tol": 1e-08
+      }
+    },
+    "solver": {
+      "n_steps": 25,
+      "mesh": {
+        "nx": 42,
+        "ny": 23,
+        "nz": 14
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 25
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "plasticJ2NotchedBar3D",
+      "j2_plastic",
+      "displacement_control",
+      "3D",
+      "calibrated_nonlinear_v1"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

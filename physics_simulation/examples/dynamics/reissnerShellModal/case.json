@@ -1,0 +1,73 @@
+{
+  "domain": "dynamics",
+  "family": "reissnerShellModal",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "reissnerShellModal",
+        "family": "reissnerShellModal",
+        "case_prefix": "reissnerShellModal",
+        "case_name": "reissnerShellModal_S000",
+        "description": "simply-supported Reissner-shell free-vibration surrogate with first six eigenmodes export",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 1.2,
+          "step_size": 0.005,
+          "sample_count": 241,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "reissner_shell_modal",
+          "a_m": 0.5,
+          "b_m": 0.5,
+          "thickness_m": 0.01,
+          "young_modulus_pa": 200000000000.0,
+          "poisson": 0.3,
+          "density_kg_m3": 7800.0,
+          "nx": 16,
+          "ny": 16,
+          "mode_m": 1,
+          "mode_n": 1,
+          "mode_amplitude_m": 0.006
+        },
+        "tags": [
+          "reissnerShellModal",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1010
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

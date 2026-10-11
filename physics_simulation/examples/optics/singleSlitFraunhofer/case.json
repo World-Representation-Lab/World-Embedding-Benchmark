@@ -1,0 +1,89 @@
+{
+  "domain": "optics",
+  "family": "singleSlitFraunhofer",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "singleSlitFraunhofer",
+        "family": "singleSlitFraunhofer",
+        "case_prefix": "singleSlitFraunhofer",
+        "case_name": "singleSlitFraunhofer_S000",
+        "description": "Fraunhofer diffraction pattern of a single slit under a small incident-angle sweep.",
+        "dim": "2D",
+        "optics": {
+          "model": "single_slit_fraunhofer",
+          "phenomena": [
+            "diffraction",
+            "far_field",
+            "coherent"
+          ],
+          "slit": {
+            "slit_width": 8e-05,
+            "slit_height": 0.00065,
+            "pupil_diameter": 0.001,
+            "wavelength_nm": 532.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "coherent_plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0005
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.2,
+          "screen_half_width": 0.01,
+          "screen_half_height": 0.006
+        },
+        "scan": {
+          "parameter": "incident_tilt_deg",
+          "start": -1.2,
+          "stop": 1.2,
+          "count": 28,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            224,
+            144
+          ],
+          "field_extent": [
+            -0.012,
+            0.012,
+            -0.006,
+            0.006
+          ],
+          "solver_grid_pixels": 256,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "diffraction",
+          "single-slit",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

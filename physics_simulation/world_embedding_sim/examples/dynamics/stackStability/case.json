@@ -1,0 +1,83 @@
+{
+  "domain": "dynamics",
+  "family": "stackStability",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "stackStability",
+        "family": "stackStability",
+        "case_prefix": "stackStability",
+        "case_name": "stackStability_S000",
+        "description": "four-box stack with moderate lateral impact",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 4.5,
+          "step_size": 0.002,
+          "sample_count": 180,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": true,
+            "size": [
+              18.0,
+              10.0
+            ],
+            "thickness": 0.25,
+            "friction": 0.55,
+            "restitution": 0.01
+          }
+        },
+        "mechanism": {
+          "type": "stack_stability",
+          "levels": 4,
+          "box_size": [
+            0.35,
+            0.35,
+            0.28
+          ],
+          "box_mass": 2.4,
+          "gap": 0.0,
+          "settle_time": 0.18,
+          "freeze_stack_until_impact": true,
+          "ground_friction": 0.55,
+          "box_friction": 0.55,
+          "impactor": {
+            "enabled": true,
+            "size": [
+              0.24,
+              0.24,
+              0.24
+            ],
+            "mass": 2.2,
+            "speed": 2.6,
+            "start_delay": 0.2
+          }
+        },
+        "tags": [
+          "stackStability",
+          "3D",
+          "chrono",
+          "default"
+        ],
+        "seed": 401
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

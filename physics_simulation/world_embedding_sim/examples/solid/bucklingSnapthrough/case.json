@@ -1,0 +1,69 @@
+{
+  "domain": "solid",
+  "family": "bucklingSnapthrough",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "bucklingSnapthrough",
+    "family": "bucklingSnapthrough",
+    "case_prefix": "bucklingSnapthrough",
+    "case_name": "bucklingSnapthrough_S000",
+    "description": "Buckling and post-buckling snap-through",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 15000000000,
+      "nu": 0.23,
+      "rho": 930
+    },
+    "geometry": {
+      "kind": "slender_column",
+      "lx": 3.5,
+      "ly": 0.13,
+      "thickness": 0.0092,
+      "imperfection": 0.0019
+    },
+    "loading": {
+      "mode": "axial_compression",
+      "load_factor": 0.16,
+      "load_sign": -1,
+      "load_path": [],
+      "critical_load_factor": 0.62
+    },
+    "nonlinear": {
+      "model": "geometric_nonlinear",
+      "params": {
+        "newton_damp": 0.99
+      }
+    },
+    "solver": {
+      "n_steps": 29,
+      "mesh": {
+        "nx": 149,
+        "ny": 44
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 29
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "bucklingSnapthrough",
+      "linear_elastic",
+      "axial_compression",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

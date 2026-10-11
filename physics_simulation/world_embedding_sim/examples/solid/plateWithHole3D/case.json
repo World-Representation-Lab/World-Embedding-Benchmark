@@ -1,0 +1,73 @@
+{
+  "domain": "solid",
+  "family": "plateWithHole3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "plateWithHole3D",
+    "family": "plateWithHole3D",
+    "case_prefix": "plateWithHole3D",
+    "case_name": "plateWithHole3D_S000",
+    "description": "3D plate with hole under remote tension",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 6900000000,
+      "nu": 0.25,
+      "rho": 5000
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1,
+      "ly": 0.7,
+      "thickness": 0.065,
+      "lz": 0.57,
+      "shape_3d": "plate_with_hole_3d",
+      "hole_radius": 0.19,
+      "hole_cx": 0.49,
+      "hole_cy": 0.054,
+      "hole_cz": 0.037
+    },
+    "loading": {
+      "mode": "remote_tension",
+      "load_factor": 0.066,
+      "load_sign": 1,
+      "load_path": [],
+      "hole_adapt_enable": true
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 28,
+      "mesh": {
+        "nx": 41,
+        "ny": 28,
+        "nz": 29
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 28
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "plateWithHole3D",
+      "linear_elastic",
+      "remote_tension",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

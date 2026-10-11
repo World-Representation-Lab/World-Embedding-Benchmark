@@ -1,0 +1,88 @@
+{
+  "domain": "optics",
+  "family": "circularApertureAiry",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "circularApertureAiry",
+        "family": "circularApertureAiry",
+        "case_prefix": "circularApertureAiry",
+        "case_name": "circularApertureAiry_S000",
+        "description": "Airy diffraction pattern from a circular aperture with an aperture-scale sweep.",
+        "dim": "2D",
+        "optics": {
+          "model": "circular_aperture_airy",
+          "phenomena": [
+            "diffraction",
+            "airy_pattern",
+            "coherent"
+          ],
+          "aperture": {
+            "diameter": 0.0004,
+            "pupil_diameter": 0.001,
+            "wavelength_nm": 532.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "coherent_plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0005
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.0,
+          "screen_half_width": 0.0045,
+          "screen_half_height": 0.0045
+        },
+        "scan": {
+          "parameter": "aperture_scale",
+          "start": 0.75,
+          "stop": 1.3,
+          "count": 28,
+          "units": "ratio"
+        },
+        "visualization": {
+          "field_resolution": [
+            192,
+            192
+          ],
+          "field_extent": [
+            -0.0045,
+            0.0045,
+            -0.0045,
+            0.0045
+          ],
+          "solver_grid_pixels": 256,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "airy",
+          "circular-aperture",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

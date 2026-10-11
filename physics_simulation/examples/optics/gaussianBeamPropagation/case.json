@@ -1,0 +1,90 @@
+{
+  "domain": "optics",
+  "family": "gaussianBeamPropagation",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "gaussianBeamPropagation",
+        "family": "gaussianBeamPropagation",
+        "case_prefix": "gaussianBeamPropagation",
+        "case_name": "gaussianBeamPropagation_S000",
+        "description": "Gaussian laser beam propagation across the waist and Rayleigh range.",
+        "dim": "2D",
+        "optics": {
+          "model": "gaussian_beam",
+          "phenomena": [
+            "diffraction",
+            "beam_waist",
+            "rayleigh_range",
+            "coherent"
+          ],
+          "gaussian_beam": {
+            "waist_radius": 0.00035,
+            "wavelength_nm": 532.0,
+            "waist_position": 0.0,
+            "power": 1.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "gaussian_laser",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0012
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.0,
+          "screen_half_width": 0.0024,
+          "screen_half_height": 0.0024
+        },
+        "scan": {
+          "parameter": "propagation_distance",
+          "start": -0.55,
+          "stop": 0.55,
+          "count": 36,
+          "units": "m"
+        },
+        "visualization": {
+          "field_resolution": [
+            192,
+            192
+          ],
+          "field_extent": [
+            -0.0024,
+            0.0024,
+            -0.0024,
+            0.0024
+          ],
+          "solver_grid_pixels": 192,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "gaussian-beam",
+          "laser",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "domain": "optics",
+  "family": "polarizerMalus",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "polarizerMalus",
+        "family": "polarizerMalus",
+        "case_prefix": "polarizerMalus",
+        "case_name": "polarizerMalus_S000",
+        "description": "Analyzer-angle sweep for Malus law with two linear polarizers.",
+        "dim": "2D",
+        "optics": {
+          "model": "linear_polarizers",
+          "phenomena": [
+            "polarization",
+            "malus_law"
+          ],
+          "polarization_mode": "linear",
+          "polarizers": {
+            "extinction_ratio": 160.0,
+            "initial_polarization_deg": 0.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "linearly_polarized_backlight",
+            "source_distance": 0.45,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.18
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.45,
+          "screen_half_width": 0.5,
+          "screen_half_height": 0.4
+        },
+        "scan": {
+          "parameter": "analyzer_angle_deg",
+          "start": 0.0,
+          "stop": 90.0,
+          "count": 36,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.55,
+            0.55,
+            -0.45,
+            0.45
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_spectral_polarized",
+            "scalar_rgb_polarized",
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "polarization",
+          "malus",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

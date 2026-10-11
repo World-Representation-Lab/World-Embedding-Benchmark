@@ -1,0 +1,100 @@
+{
+  "domain": "dynamics",
+  "family": "rigidCollision",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "rigidCollision",
+        "family": "rigidCollision",
+        "case_prefix": "rigidCollision",
+        "case_name": "rigidCollision_S000",
+        "description": "head-on rigid box collision with moderate restitution",
+        "dim": "2D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 3.0,
+          "step_size": 0.002,
+          "sample_count": 160,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false,
+            "size": [
+              18.0,
+              6.0
+            ],
+            "thickness": 0.25,
+            "friction": 0.35,
+            "restitution": 0.02
+          }
+        },
+        "mechanism": {
+          "type": "rigid_collision",
+          "body_a": {
+            "shape": "box",
+            "size": [
+              0.9,
+              0.6,
+              0.5
+            ],
+            "mass": 6.0,
+            "position": [
+              -1.7,
+              0.0,
+              0.0
+            ],
+            "velocity": [
+              2.8,
+              0.0,
+              0.0
+            ]
+          },
+          "body_b": {
+            "shape": "box",
+            "size": [
+              0.9,
+              0.6,
+              0.5
+            ],
+            "mass": 6.0,
+            "position": [
+              1.7,
+              0.0,
+              0.0
+            ],
+            "velocity": [
+              -2.2,
+              0.0,
+              0.0
+            ]
+          },
+          "restitution": 0.85,
+          "friction": 0.05
+        },
+        "tags": [
+          "rigidCollision",
+          "2D",
+          "chrono",
+          "default"
+        ],
+        "seed": 301
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

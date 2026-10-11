@@ -1,0 +1,73 @@
+{
+  "domain": "solid",
+  "family": "cubeCompression3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "cubeCompression3D",
+    "family": "cubeCompression3D",
+    "case_prefix": "cubeCompression3D",
+    "case_name": "cubeCompression3D_S000",
+    "description": "Cube compression in 3D",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 3300000000,
+      "nu": 0.25,
+      "rho": 700
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.7,
+      "ly": 0.94,
+      "thickness": 0.038,
+      "lz": 0.8,
+      "shape_3d": "cube"
+    },
+    "loading": {
+      "mode": "axial_compression",
+      "load_factor": 0.044,
+      "load_sign": 1,
+      "load_path": [],
+      "compress_axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 27,
+      "mesh": {
+        "nx": 29,
+        "ny": 21,
+        "nz": 28
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 27
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "cubeCompression3D",
+      "linear_elastic",
+      "axial_compression",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

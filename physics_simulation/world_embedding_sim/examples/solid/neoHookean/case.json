@@ -1,0 +1,71 @@
+{
+  "domain": "solid",
+  "family": "neoHookean",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "neoHookean",
+    "family": "neoHookean",
+    "case_prefix": "neoHookean",
+    "case_name": "neoHookean_S000",
+    "description": "Finite-strain Neo-Hookean hyperelastic response",
+    "dim": "2D",
+    "material": {
+      "model": "neo_hookean",
+      "E": 24000000000,
+      "nu": 0.27,
+      "rho": 8500,
+      "mu": 110000000,
+      "kappa": 24000000
+    },
+    "geometry": {
+      "kind": "block",
+      "lx": 2,
+      "ly": 0.15,
+      "thickness": 0.0091
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.44,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "neo_hookean",
+      "params": {
+        "mu": 110000000,
+        "kappa": 24000000,
+        "newton_damp": 0.67
+      }
+    },
+    "solver": {
+      "n_steps": 19,
+      "mesh": {
+        "nx": 82,
+        "ny": 48
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 19
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "neoHookean",
+      "neo_hookean",
+      "displacement_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

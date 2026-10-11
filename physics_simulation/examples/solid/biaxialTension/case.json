@@ -1,0 +1,67 @@
+{
+  "domain": "solid",
+  "family": "biaxialTension",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "biaxialTension",
+    "family": "biaxialTension",
+    "case_prefix": "biaxialTension",
+    "case_name": "biaxialTension_S000",
+    "description": "Biaxial in-plane tensile loading",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 1900000000,
+      "nu": 0.44,
+      "rho": 1900
+    },
+    "geometry": {
+      "kind": "plate",
+      "lx": 2.1,
+      "ly": 0.49,
+      "thickness": 0.019,
+      "biaxial_ratio": 0.65
+    },
+    "loading": {
+      "mode": "biaxial_displacement",
+      "load_factor": 0.15,
+      "load_sign": 1,
+      "load_path": [],
+      "biaxial_ratio": 1.2
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 27,
+      "mesh": {
+        "nx": 161,
+        "ny": 71
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 27
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "biaxialTension",
+      "linear_elastic",
+      "biaxial_displacement",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

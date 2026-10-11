@@ -1,0 +1,75 @@
+{
+  "domain": "dynamics",
+  "family": "sphereDrop3D",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "sphereDrop3D",
+        "family": "sphereDrop3D",
+        "case_prefix": "sphereDrop3D",
+        "case_name": "sphereDrop3D_S000",
+        "description": "3D sphere drop with visible rebound and lateral carry.",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "sample_count": 180,
+          "duration": 4.2,
+          "step_size": 0.002
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": true,
+            "size": [
+              36.0,
+              12.0
+            ],
+            "thickness": 0.25,
+            "friction": 0.14,
+            "restitution": 0.72
+          }
+        },
+        "mechanism": {
+          "type": "sphere_drop_3d",
+          "sphere": {
+            "radius": 0.22,
+            "mass": 1.45,
+            "position": [
+              -3.2,
+              0.0,
+              3.28
+            ],
+            "velocity": [
+              1.35,
+              0.0,
+              0.0
+            ]
+          },
+          "friction": 0.12,
+          "restitution": 0.72,
+          "rolling_friction": 0.0015
+        },
+        "tags": [
+          "sphereDrop3D",
+          "3D",
+          "chrono"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

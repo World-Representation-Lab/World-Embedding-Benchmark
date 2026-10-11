@@ -1,0 +1,63 @@
+{
+  "domain": "dynamics",
+  "family": "rollingSlidingTransition",
+  "backend": "surrogate",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "rollingSlidingTransition",
+        "family": "rollingSlidingTransition",
+        "case_prefix": "rollingSlidingTransition",
+        "case_name": "rollingSlidingTransition_S000",
+        "description": "solid cylinder starts with little spin and shows a surface-speed gradient before rolling capture",
+        "dim": "2D",
+        "solver": {
+          "backend_preference": [
+            "surrogate"
+          ],
+          "duration": 2.55,
+          "step_size": 0.003,
+          "sample_count": 240,
+          "contact_method": "analytic_friction",
+          "solver_type": "semi_implicit"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "solid cylinder sliding to rolling on incline",
+          "radius": 0.24,
+          "width": 0.18,
+          "mass": 1.0,
+          "inertia_factor": 0.5,
+          "slope_angle_deg": 8.0,
+          "friction": 0.08,
+          "rolling_friction": 0.003,
+          "initial_speed": 0.75,
+          "initial_omega_rad_s": 0.0,
+          "track_length": 4.8,
+          "visual_scalar": "surface_point_speed"
+        },
+        "tags": [
+          "rolling_sliding_transition",
+          "incline",
+          "2D"
+        ],
+        "seed": 8201
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

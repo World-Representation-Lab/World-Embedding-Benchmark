@@ -1,0 +1,66 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+
+application     icoFoam;
+
+startFrom       startTime;
+startTime       0;
+
+stopAt          endTime;
+endTime         10;        // <-- replaced by script
+
+deltaT          0.01;      // <-- replaced by script
+
+writeControl    timeStep;
+writeInterval   10;        // <-- replaced by script
+
+purgeWrite      0;
+writeFormat     ascii;
+writePrecision  7;
+writeCompression off;
+
+timeFormat      general;
+timePrecision   6;
+
+runTimeModifiable yes;
+
+functions
+{
+    vorticity
+    {
+        type            vorticity;
+        libs            ("libfieldFunctionObjects.so");
+        enabled         true;
+        executeControl  timeStep;
+        executeInterval 10;
+        writeControl    timeStep;
+        writeInterval   10;
+    }
+
+    fieldMinMax
+    {
+        type            fieldMinMax;
+        libs            ("libfieldFunctionObjects.so");
+        enabled         true;
+        executeControl  timeStep;
+        executeInterval 10;
+        writeControl    timeStep;
+        writeInterval   10;
+        fields          (U p omega);
+        location        yes;
+    }
+
+    kineticEnergy
+    {
+        type            volFieldValue;
+        libs            ("libfieldFunctionObjects.so");
+        enabled         true;
+        regionType      all;
+        operation       volIntegrate;
+        fields          (K);
+        writeFields     false;
+        executeControl  timeStep;
+        executeInterval 10;
+        writeControl    timeStep;
+        writeInterval   10;
+    }
+}

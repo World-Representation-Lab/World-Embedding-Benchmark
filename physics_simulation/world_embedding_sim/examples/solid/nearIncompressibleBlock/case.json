@@ -1,0 +1,73 @@
+{
+  "domain": "solid",
+  "family": "nearIncompressibleBlock",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "nearIncompressibleBlock",
+    "family": "nearIncompressibleBlock",
+    "case_prefix": "nearIncompressibleBlock",
+    "case_name": "nearIncompressibleBlock_S000",
+    "description": "Near-incompressible block under mixed loading",
+    "dim": "2D",
+    "material": {
+      "model": "neo_hookean",
+      "E": 47000000000,
+      "nu": 0.46,
+      "rho": 3000,
+      "mu": 47000000,
+      "kappa": 340000000
+    },
+    "geometry": {
+      "kind": "block",
+      "lx": 1.8,
+      "ly": 0.69,
+      "thickness": 0.029,
+      "bulk_bias": 1.1
+    },
+    "loading": {
+      "mode": "mixed_control",
+      "load_factor": 0.081,
+      "load_sign": 1,
+      "load_path": [],
+      "volumetric_weight": 1.2
+    },
+    "nonlinear": {
+      "model": "neo_hookean",
+      "params": {
+        "mu": 47000000,
+        "kappa": 340000000,
+        "newton_damp": 0.94
+      }
+    },
+    "solver": {
+      "n_steps": 35,
+      "mesh": {
+        "nx": 114,
+        "ny": 39
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 35
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "nearIncompressibleBlock",
+      "neo_hookean",
+      "mixed_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "domain": "optics",
+  "family": "concaveMirrorFocus",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "concaveMirrorFocus",
+        "family": "concaveMirrorFocus",
+        "case_prefix": "concaveMirrorFocus",
+        "case_name": "concaveMirrorFocus_S000",
+        "description": "Concave-mirror focusing with a sensor-distance sweep around the reflected image plane.",
+        "dim": "2D",
+        "optics": {
+          "model": "concave_mirror",
+          "phenomena": [
+            "reflection",
+            "focus",
+            "imaging"
+          ],
+          "mirror": {
+            "focal_length": 0.42,
+            "aperture_radius": 0.09,
+            "object_distance": 1.25,
+            "reflectance": 0.94
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "point_object",
+            "source_distance": 1.25,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.58,
+          "screen_half_width": 0.45,
+          "screen_half_height": 0.45
+        },
+        "scan": {
+          "parameter": "sensor_distance",
+          "start": 0.22,
+          "stop": 0.95,
+          "count": 36,
+          "units": "m"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -1.35,
+            0.2,
+            -0.35,
+            0.35
+          ],
+          "ray_bundle_count": 11
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "reflection",
+          "focus",
+          "mirror",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

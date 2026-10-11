@@ -1,0 +1,76 @@
+{
+  "domain": "solid",
+  "family": "hyperelasticNeoHookean3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "hyperelasticNeoHookean3D",
+    "family": "hyperelasticNeoHookean3D",
+    "case_prefix": "hyperelasticNeoHookean3D",
+    "case_name": "hyperelasticNeoHookean3D_S000",
+    "description": "3D hyperelastic Neo-Hookean response",
+    "dim": "3D",
+    "material": {
+      "model": "neo_hookean",
+      "E": 38000000000,
+      "nu": 0.49,
+      "rho": 1500,
+      "mu": 6900000,
+      "kappa": 160000000
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 2.2,
+      "ly": 0.92,
+      "thickness": 0.11,
+      "lz": 0.5,
+      "shape_3d": "cylinder",
+      "cylinder_radius": 0.16
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.15,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "neo_hookean",
+      "params": {
+        "mu": 6900000,
+        "kappa": 160000000,
+        "newton_damp": 0.67
+      }
+    },
+    "solver": {
+      "n_steps": 25,
+      "mesh": {
+        "nx": 25,
+        "ny": 19,
+        "nz": 33
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 25
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "hyperelasticNeoHookean3D",
+      "neo_hookean",
+      "displacement_control",
+      "3D",
+      "calibrated_nonlinear_v1"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

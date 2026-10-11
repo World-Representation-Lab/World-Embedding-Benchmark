@@ -1,0 +1,67 @@
+{
+  "domain": "dynamics",
+  "family": "unbalancedRotor3D",
+  "backend": "surrogate",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "unbalancedRotor3D",
+        "family": "unbalancedRotor3D",
+        "case_prefix": "unbalancedRotor3D",
+        "case_name": "unbalancedRotor3D_S000",
+        "description": "subcritical unbalanced rotor run-up with a small whirl response",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "surrogate"
+          ],
+          "duration": 5.5,
+          "step_size": 0.004,
+          "sample_count": 190,
+          "contact_method": "none",
+          "solver_type": "jeffcott_rotor_surrogate"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "subcritical run-up unbalanced Jeffcott rotor",
+          "shaft_length": 1.1,
+          "rotor_radius": 0.18,
+          "mass": 1.2,
+          "spin_start_ratio": 0.45,
+          "spin_end_ratio": 0.72,
+          "spin_rad_s": 74.25,
+          "spin_end_rad_s": 118.8,
+          "critical_speed_rad_s": 165.0,
+          "damping_ratio": 0.07,
+          "eccentricity_m": 0.045,
+          "axis_height": 0.55,
+          "max_whirl_radius": 0.09,
+          "ramp_time_fraction": 0.78,
+          "amplitude_time_constant_s": 0.16,
+          "camera_yaw_deg": 36.0
+        },
+        "tags": [
+          "unbalanced_rotor",
+          "subcritical",
+          "3D"
+        ],
+        "seed": 8301
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

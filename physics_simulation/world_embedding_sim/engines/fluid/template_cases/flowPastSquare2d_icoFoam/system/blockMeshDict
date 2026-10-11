@@ -1,0 +1,66 @@
+FoamFile { version 2.0; format ascii; class dictionary; object blockMeshDict; }
+
+scale 1.0;
+
+vertices
+(
+    (__XMIN__ __YMIN__ 0)   (__SQUARE_LEFT__ __YMIN__ 0)   (__SQUARE_RIGHT__ __YMIN__ 0)   (__XMAX__ __YMIN__ 0)
+    (__XMIN__ __SQUARE_LOWER__ 0) (__SQUARE_LEFT__ __SQUARE_LOWER__ 0) (__SQUARE_RIGHT__ __SQUARE_LOWER__ 0) (__XMAX__ __SQUARE_LOWER__ 0)
+    (__XMIN__ __SQUARE_UPPER__ 0)  (__SQUARE_LEFT__ __SQUARE_UPPER__ 0)  (__SQUARE_RIGHT__ __SQUARE_UPPER__ 0)  (__XMAX__ __SQUARE_UPPER__ 0)
+    (__XMIN__ __YMAX__ 0)    (__SQUARE_LEFT__ __YMAX__ 0)    (__SQUARE_RIGHT__ __YMAX__ 0)    (__XMAX__ __YMAX__ 0)
+
+    (__XMIN__ __YMIN__ __LZ__)   (__SQUARE_LEFT__ __YMIN__ __LZ__)   (__SQUARE_RIGHT__ __YMIN__ __LZ__)   (__XMAX__ __YMIN__ __LZ__)
+    (__XMIN__ __SQUARE_LOWER__ __LZ__) (__SQUARE_LEFT__ __SQUARE_LOWER__ __LZ__) (__SQUARE_RIGHT__ __SQUARE_LOWER__ __LZ__) (__XMAX__ __SQUARE_LOWER__ __LZ__)
+    (__XMIN__ __SQUARE_UPPER__ __LZ__)  (__SQUARE_LEFT__ __SQUARE_UPPER__ __LZ__)  (__SQUARE_RIGHT__ __SQUARE_UPPER__ __LZ__)  (__XMAX__ __SQUARE_UPPER__ __LZ__)
+    (__XMIN__ __YMAX__ __LZ__)    (__SQUARE_LEFT__ __YMAX__ __LZ__)    (__SQUARE_RIGHT__ __YMAX__ __LZ__)    (__XMAX__ __YMAX__ __LZ__)
+);
+
+blocks
+(
+    hex (0 1 5 4 16 17 21 20) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (1 2 6 5 17 18 22 21) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (2 3 7 6 18 19 23 22) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+
+    hex (4 5 9 8 20 21 25 24) (__NX__ __NY_OBSTACLE__ __NZ__) simpleGrading (1 1 1)
+    hex (6 7 11 10 22 23 27 26) (__NX__ __NY_OBSTACLE__ __NZ__) simpleGrading (1 1 1)
+
+    hex (8 9 13 12 24 25 29 28) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (9 10 14 13 25 26 30 29) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (10 11 15 14 26 27 31 30) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+);
+
+boundary
+(
+    inlet
+    {
+        type patch;
+        faces ((0 4 20 16) (4 8 24 20) (8 12 28 24));
+    }
+    outlet
+    {
+        type patch;
+        faces ((3 7 23 19) (7 11 27 23) (11 15 31 27));
+    }
+    farField
+    {
+        type patch;
+        faces ((0 1 17 16) (1 2 18 17) (2 3 19 18) (12 13 29 28) (13 14 30 29) (14 15 31 30));
+    }
+    obstacle
+    {
+        type wall;
+        faces ((5 6 22 21) (9 10 26 25) (5 9 25 21) (6 10 26 22));
+    }
+    frontAndBack
+    {
+        type empty;
+        faces
+        (
+            (0 1 5 4) (16 17 21 20) (1 2 6 5) (17 18 22 21) (2 3 7 6) (18 19 23 22)
+            (4 5 9 8) (20 21 25 24) (6 7 11 10) (22 23 27 26)
+            (8 9 13 12) (24 25 29 28) (9 10 14 13) (25 26 30 29) (10 11 15 14) (26 27 31 30)
+        );
+    }
+);
+
+mergePatchPairs ();

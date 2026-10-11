@@ -1,0 +1,83 @@
+{
+  "domain": "optics",
+  "family": "totalInternalReflection",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "totalInternalReflection",
+        "family": "totalInternalReflection",
+        "case_prefix": "totalInternalReflection",
+        "case_name": "totalInternalReflection_S000",
+        "description": "Critical-angle sweep for total internal reflection in a high-index guide.",
+        "dim": "2D",
+        "optics": {
+          "model": "waveguide_tir",
+          "phenomena": [
+            "total_internal_reflection",
+            "critical_angle"
+          ],
+          "waveguide": {
+            "n_core": 1.58,
+            "n_cladding": 1.0,
+            "screen_offset": 0.24
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "internal_beam",
+            "source_distance": 0.6,
+            "divergence_deg": 0.25,
+            "beam_half_width": 0.06
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.4,
+          "screen_half_width": 0.7,
+          "screen_half_height": 0.45
+        },
+        "scan": {
+          "parameter": "internal_incidence_deg",
+          "start": 30.0,
+          "stop": 58.0,
+          "count": 36,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.6,
+            0.8,
+            -0.5,
+            0.5
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "tir",
+          "critical-angle"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

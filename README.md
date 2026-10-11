@@ -24,6 +24,13 @@ python -m pip install -e .
 
 Use official prebuilt PyTorch and vLLM wheels on x86_64.
 
+## Physics simulation
+
+The [physics simulation code](physics_simulation/README.md) provides 80 runnable
+examples, one for each of the benchmark's 80 simulation families. It includes
+simulation engines, video rendering, and text description generation. Installation
+and solver setup are documented in that directory.
+
 ## Data
 
 The datasets are available in the [World Embedding Benchmark collection](https://huggingface.co/collections/World-Representation-Lab/world-embedding-benchmark):
@@ -206,6 +213,7 @@ whole clip rather than sampled at a fixed rate.
 
 ```text
 world_embedding_benchmark/   Dataset loaders, model adapters, and evaluators
+physics_simulation/          Simulation engines and 80 family examples
 run_retrieval.py             Retrieval CLI
 run_regression.py            Nested-CV regression CLI
 run_regression_scaling.py    Fixed-test regression scaling CLI

@@ -1,0 +1,69 @@
+{
+  "domain": "dynamics",
+  "family": "harmonicResponseFRF",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "harmonicResponseFRF",
+        "family": "harmonicResponseFRF",
+        "case_prefix": "harmonicResponseFRF",
+        "case_name": "harmonicResponseFRF_S000",
+        "description": "harmonic-response frequency sweep with FRF export and resonance-point snapshot metadata",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 1.6,
+          "step_size": 0.005,
+          "sample_count": 321,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "harmonic_response_frf",
+          "f_start_hz": 10.0,
+          "f_end_hz": 500.0,
+          "f_step_hz": 5.0,
+          "f1_hz": 82.0,
+          "force_n": 10.0,
+          "rayleigh_beta": 1e-05,
+          "drive_frequency_hz": 80.0
+        },
+        "tags": [
+          "harmonicResponseFRF",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1003
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

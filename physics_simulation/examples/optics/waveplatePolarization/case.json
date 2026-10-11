@@ -1,0 +1,92 @@
+{
+  "domain": "optics",
+  "family": "waveplatePolarization",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "waveplatePolarization",
+        "family": "waveplatePolarization",
+        "case_prefix": "waveplatePolarization",
+        "case_name": "waveplatePolarization_S000",
+        "description": "Jones-vector polarization modulation through a waveplate and analyzer.",
+        "dim": "2D",
+        "optics": {
+          "model": "waveplate_jones_polarization",
+          "phenomena": [
+            "polarization",
+            "birefringence",
+            "retardance",
+            "jones_calculus"
+          ],
+          "polarization_mode": "linear",
+          "waveplate": {
+            "retardance_deg": 90.0,
+            "input_polarization_deg": 0.0,
+            "analyzer_angle_deg": 45.0,
+            "extinction_ratio": 160.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "linearly_polarized_backlight",
+            "source_distance": 0.45,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.18
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.45,
+          "screen_half_width": 0.5,
+          "screen_half_height": 0.4
+        },
+        "scan": {
+          "parameter": "waveplate_angle_deg",
+          "start": 0.0,
+          "stop": 180.0,
+          "count": 48,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.55,
+            0.55,
+            -0.45,
+            0.45
+          ],
+          "solver_grid_pixels": 160,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb_polarized",
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "polarization",
+          "waveplate",
+          "birefringence",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

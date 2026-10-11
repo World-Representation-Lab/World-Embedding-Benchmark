@@ -1,0 +1,12 @@
+FoamFile { version 2.0; format ascii; class dictionary; object transportProperties; }
+
+transportModel  __RHEO_MODEL__;
+
+// powerLaw / HerschelBulkley shared parameters
+nu              [0 2 -1 0 0 0 0] __NU__;
+nu0             [0 2 -1 0 0 0 0] __NU0__;
+nuMin           [0 2 -1 0 0 0 0] __NUMIN__;
+nuMax           [0 2 -1 0 0 0 0] __NUMAX__;
+k               [0 2 -1 0 0 0 0] __K__;
+n               [0 0 0 0 0 0 0] __N__;
+tau0            [0 2 -2 0 0 0 0] __TAU0__;

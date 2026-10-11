@@ -1,0 +1,74 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object T; }
+
+dimensions      [0 0 0 1 0 0 0];
+
+internalField   uniform 0;
+
+boundaryField
+{
+    inlet
+    {
+        type codedFixedValue;
+        name pulseInlet;
+        value uniform 0;
+        code
+        #{
+            const scalar t = this->db().time().value();
+            const scalar pulseEnd = __PULSE_T_END__;
+            const scalar pulseRamp = __PULSE_RAMP__;
+            const scalar pulseValue = __PULSE_VALUE__;
+            const scalar outletValue = __PULSE_OUTLET_VALUE__;
+            const scalar yMin = __PULSE_Y_MIN__;
+            const scalar yMax = __PULSE_Y_MAX__;
+            scalar temporalValue = outletValue;
+
+            if (pulseEnd > SMALL && t >= 0 && t <= pulseEnd)
+            {
+                scalar ramp = min(max(pulseRamp, scalar(0)), scalar(0.5) * pulseEnd);
+                if (ramp <= SMALL)
+                {
+                    temporalValue = pulseValue;
+                }
+                else if (t < ramp)
+                {
+                    const scalar s = t / ramp;
+                    temporalValue = outletValue + (pulseValue - outletValue) * 0.5 * (1.0 - cos(constant::mathematical::pi * s));
+                }
+                else if (t > pulseEnd - ramp)
+                {
+                    const scalar s = (pulseEnd - t) / ramp;
+                    temporalValue = outletValue + (pulseValue - outletValue) * 0.5 * (1.0 - cos(constant::mathematical::pi * s));
+                }
+                else
+                {
+                    temporalValue = pulseValue;
+                }
+            }
+
+            const vectorField& Cf = patch().Cf();
+            scalarField vals(Cf.size(), outletValue);
+            forAll(vals, i)
+            {
+                const scalar y = Cf[i].y();
+                if (y >= yMin && y <= yMax)
+                {
+                    vals[i] = temporalValue;
+                }
+            }
+
+            operator==(vals);
+        #};
+    }
+    outlet
+    {
+        type zeroGradient;
+    }
+    walls
+    {
+        type zeroGradient;
+    }
+    frontAndBack
+    {
+        type empty;
+    }
+}

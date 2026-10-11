@@ -1,0 +1,87 @@
+{
+  "domain": "optics",
+  "family": "beamSplitterPlate",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "beamSplitterPlate",
+        "family": "beamSplitterPlate",
+        "case_prefix": "beamSplitterPlate",
+        "case_name": "beamSplitterPlate_S000",
+        "description": "Partially reflective plate beam splitter with simultaneous reflected and transmitted branches.",
+        "dim": "2D",
+        "optics": {
+          "model": "beam_splitter_plate",
+          "phenomena": [
+            "reflection",
+            "transmission",
+            "beam_splitting"
+          ],
+          "beam_splitter": {
+            "reflectance": 0.5,
+            "transmittance": 0.5,
+            "angle_deg": 45.0,
+            "plate_thickness": 0.008
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "plane_wave",
+            "source_distance": 0.65,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.08
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.62,
+          "screen_half_width": 0.72,
+          "screen_half_height": 0.56
+        },
+        "scan": {
+          "parameter": "incident_trim_deg",
+          "start": -10.0,
+          "stop": 10.0,
+          "count": 36,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.72,
+            0.72,
+            -0.56,
+            0.56
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "beam-splitter",
+          "reflection",
+          "transmission",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

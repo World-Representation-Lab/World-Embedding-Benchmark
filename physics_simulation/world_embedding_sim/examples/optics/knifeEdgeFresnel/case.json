@@ -1,0 +1,89 @@
+{
+  "domain": "optics",
+  "family": "knifeEdgeFresnel",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "knifeEdgeFresnel",
+        "family": "knifeEdgeFresnel",
+        "case_prefix": "knifeEdgeFresnel",
+        "case_name": "knifeEdgeFresnel_S000",
+        "description": "Near-field Fresnel diffraction of a knife edge sweeping across a coherent beam.",
+        "dim": "2D",
+        "optics": {
+          "model": "knife_edge_fresnel",
+          "phenomena": [
+            "diffraction",
+            "fresnel",
+            "coherent"
+          ],
+          "edge": {
+            "beam_width": 0.0018,
+            "beam_height": 0.0012,
+            "wavelength_nm": 532.0,
+            "propagation_distance": 0.35
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "coherent_plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.0009
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.35,
+          "screen_half_width": 0.0012,
+          "screen_half_height": 0.0007
+        },
+        "scan": {
+          "parameter": "edge_offset",
+          "start": -0.00035,
+          "stop": 0.00035,
+          "count": 28,
+          "units": "m"
+        },
+        "visualization": {
+          "field_resolution": [
+            224,
+            144
+          ],
+          "field_extent": [
+            -0.0012,
+            0.0012,
+            -0.0007,
+            0.0007
+          ],
+          "solver_grid_pixels": 224,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "fresnel",
+          "knife-edge",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

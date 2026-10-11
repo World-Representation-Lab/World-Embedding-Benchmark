@@ -1,0 +1,74 @@
+{
+  "domain": "solid",
+  "family": "yieldHardening",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "yieldHardening",
+    "family": "yieldHardening",
+    "case_prefix": "yieldHardening",
+    "case_name": "yieldHardening_S000",
+    "description": "Elasto-plastic yielding with isotropic hardening",
+    "dim": "2D",
+    "material": {
+      "model": "j2_plastic",
+      "E": 37000000000,
+      "nu": 0.4,
+      "rho": 2500,
+      "yield_stress": 62000000,
+      "hardening_modulus": 13000000000,
+      "yield_strain": 0.0021
+    },
+    "geometry": {
+      "kind": "dogbone",
+      "lx": 1.6,
+      "ly": 0.37,
+      "thickness": 0.024,
+      "neck_region_center": 0.92,
+      "neck_region_width": 0.16
+    },
+    "loading": {
+      "mode": "load_control",
+      "load_factor": 0.26,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "j2_plasticity",
+      "params": {
+        "yield_stress": 62000000,
+        "hardening_modulus": 13000000000,
+        "plastic_tol": 1e-08
+      }
+    },
+    "solver": {
+      "n_steps": 34,
+      "mesh": {
+        "nx": 94,
+        "ny": 63
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 34
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "yieldHardening",
+      "j2_plastic",
+      "load_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

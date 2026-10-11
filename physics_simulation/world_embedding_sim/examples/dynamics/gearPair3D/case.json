@@ -1,0 +1,84 @@
+{
+  "domain": "dynamics",
+  "family": "gearPair3D",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "gearPair3D",
+        "family": "gearPair3D",
+        "case_prefix": "gearPair3D",
+        "case_name": "gearPair3D_S000",
+        "description": "20 degree full-depth spur gear pair with standard involute proportions and driven input shaft",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 4.024,
+          "step_size": 0.0021,
+          "sample_count": 180,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false,
+            "size": [
+              40.0,
+              10.0
+            ],
+            "thickness": 0.25,
+            "friction": 0.4,
+            "restitution": 0.05
+          }
+        },
+        "mechanism": {
+          "type": "gear_pair_3d",
+          "gear_count": 2,
+          "center_a": [
+            0.0,
+            0.0,
+            0.36
+          ],
+          "center_b": [
+            1.036,
+            0.0,
+            0.36
+          ],
+          "radius_a": 0.336,
+          "radius_b": 0.7,
+          "teeth_a": 48,
+          "teeth_b": 100,
+          "inner_hole_ratio": 0.16,
+          "pressure_angle_deg": 20.0,
+          "mesh_clearance_m": 0.002,
+          "speed_unit": "angular_velocity",
+          "thickness": 0.114,
+          "mass_a": 0.837,
+          "mass_b": 0.927,
+          "motor_speed_rad_s": 3.703,
+          "initial_angle_deg": 8.81
+        },
+        "tags": [
+          "gearPair3D",
+          "3D",
+          "chrono",
+          "default"
+        ],
+        "seed": 851
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

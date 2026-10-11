@@ -1,0 +1,71 @@
+{
+  "domain": "solid",
+  "family": "notchedBarTension3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "notchedBarTension3D",
+    "family": "notchedBarTension3D",
+    "case_prefix": "notchedBarTension3D",
+    "case_name": "notchedBarTension3D_S000",
+    "description": "3D notched bar under tension",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 20000000000,
+      "nu": 0.36,
+      "rho": 1400
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.8,
+      "ly": 0.44,
+      "thickness": 0.1,
+      "lz": 0.64,
+      "shape_3d": "notched_bar_3d",
+      "notch_depth_ratio": 0.13,
+      "notch_width_ratio": 0.21,
+      "notch_plane_x": 0.91
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.07,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 25,
+      "mesh": {
+        "nx": 46,
+        "ny": 14,
+        "nz": 22
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 25
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "notchedBarTension3D",
+      "linear_elastic",
+      "displacement_control",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

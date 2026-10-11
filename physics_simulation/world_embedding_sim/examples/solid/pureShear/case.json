@@ -1,0 +1,66 @@
+{
+  "domain": "solid",
+  "family": "pureShear",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "pureShear",
+    "family": "pureShear",
+    "case_prefix": "pureShear",
+    "case_name": "pureShear_S000",
+    "description": "Simple shear deformation under static loading",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 34000000000,
+      "nu": 0.34,
+      "rho": 7500
+    },
+    "geometry": {
+      "kind": "block",
+      "lx": 1.3,
+      "ly": 0.3,
+      "thickness": 0.023
+    },
+    "loading": {
+      "mode": "shear_displacement",
+      "load_factor": 0.12,
+      "load_sign": 1,
+      "load_path": [],
+      "shear_ratio_xy": 0.96
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 34,
+      "mesh": {
+        "nx": 94,
+        "ny": 66
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 34
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "pureShear",
+      "linear_elastic",
+      "shear_displacement",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

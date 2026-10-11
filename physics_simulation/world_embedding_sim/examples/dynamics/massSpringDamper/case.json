@@ -1,0 +1,70 @@
+{
+  "domain": "dynamics",
+  "family": "massSpringDamper",
+  "backend": "surrogate",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "massSpringDamper",
+        "family": "massSpringDamper",
+        "case_prefix": "massSpringDamper",
+        "case_name": "massSpringDamper_S000",
+        "description": "single underdamped mass released from a visible spring extension",
+        "dim": "2D",
+        "solver": {
+          "backend_preference": [
+            "surrogate"
+          ],
+          "duration": 5.5,
+          "step_size": 0.004,
+          "sample_count": 180,
+          "contact_method": "none",
+          "solver_type": "rk4"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "single underdamped mass spring damper",
+          "mode": "free underdamped release",
+          "dof_count": 1,
+          "masses": [
+            1.0
+          ],
+          "wall_stiffness": [
+            34.0
+          ],
+          "wall_damping": [
+            0.32
+          ],
+          "initial_displacement": [
+            0.34
+          ],
+          "initial_velocity": [
+            0.0
+          ],
+          "mass_spacing": 0.72
+        },
+        "tags": [
+          "mass_spring_damper",
+          "free_response",
+          "2D"
+        ],
+        "seed": 8101
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

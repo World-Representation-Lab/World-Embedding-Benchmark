@@ -1,0 +1,72 @@
+{
+  "domain": "dynamics",
+  "family": "rubberBlockCompression",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "rubberBlockCompression",
+        "family": "rubberBlockCompression",
+        "case_prefix": "rubberBlockCompression",
+        "case_name": "rubberBlockCompression_S000",
+        "description": "large-deflection hyperelastic rubber-block compression/release surrogate with force-displacement export",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 2.0,
+          "step_size": 0.01,
+          "sample_count": 201,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "rubber_block_compression",
+          "size_x_m": 0.1,
+          "size_y_m": 0.1,
+          "size_z_m": 0.1,
+          "nx": 6,
+          "ny": 6,
+          "nz": 6,
+          "ramp_time_s": 1.0,
+          "compression_ratio": 0.5,
+          "mu_pa": 400000.0,
+          "lambda_pa": 600000.0
+        },
+        "tags": [
+          "rubberBlockCompression",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1008
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "domain": "fluid",
+  "family": "buoyancy",
+  "backend": null,
+  "simulation": {
+    "template": "template_cases/buoyancyCavity2d_boussinesq",
+    "out_root": "cases",
+    "domain": "fluid",
+    "scene": "buoyancy_driven_cavity_boussinesq_2d",
+    "case_prefix": "buoyancy2d",
+    "solver": "buoyantBoussinesqPimpleFoam",
+    "L": 1.0,
+    "U_inlet": 1.0,
+    "Re_list": [
+      200
+    ],
+    "laminar_re_max": 100000,
+    "endTime": 10.0,
+    "writeInterval": 0.1,
+    "dt": 0.01,
+    "geometry": {
+      "lx": 1.0,
+      "ly": 1.0,
+      "lz": 0.01
+    },
+    "mesh": {
+      "nx": 128,
+      "ny": 128,
+      "nz": 1,
+      "thickness": 0.01
+    }
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

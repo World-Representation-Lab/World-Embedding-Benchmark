@@ -1,0 +1,70 @@
+{
+  "domain": "dynamics",
+  "family": "stressWavePropagation",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "stressWavePropagation",
+        "family": "stressWavePropagation",
+        "case_prefix": "stressWavePropagation",
+        "case_name": "stressWavePropagation_S000",
+        "description": "Hopkinson-like longitudinal stress-wave propagation with probe history export",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 0.00045,
+          "step_size": 2e-06,
+          "sample_count": 181,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "stress_wave_propagation",
+          "length_m": 1.0,
+          "diameter_m": 0.02,
+          "young_modulus_pa": 200000000000.0,
+          "density_kg_m3": 7800.0,
+          "sigma_max_pa": 100000000.0,
+          "rise_time_s": 2e-05,
+          "fall_time_s": 4e-05,
+          "monitor_nodes": 80
+        },
+        "tags": [
+          "stressWavePropagation",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1004
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

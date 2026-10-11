@@ -1,0 +1,74 @@
+FoamFile { version 2.0; format ascii; class volVectorField; object U; }
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   #codeStream
+{
+    codeInclude
+    #{
+        #include "fvCFD.H"
+    #};
+    codeOptions
+    #{
+        -I$(LIB_SRC)/finiteVolume/lnInclude
+        -I$(LIB_SRC)/meshTools/lnInclude
+    #};
+    code
+    #{
+        const fvMesh& mesh = refCast<const fvMesh>(dict.db());
+        const scalar Umax = __PROFILE_UMAX__;
+        const scalar H = __PROFILE_HEIGHT__;
+
+        vectorField field(mesh.nCells(), vector::zero);
+        const vectorField& C = mesh.C();
+
+        forAll(field, i)
+        {
+            const scalar y = C[i].y();
+            const scalar eta = min(max(y / H, scalar(0)), scalar(1));
+            const scalar ux = 4.0 * Umax * eta * (1.0 - eta);
+            field[i] = vector(ux, 0, 0);
+        }
+
+        writeEntry(os, "", field);
+    #};
+};
+
+boundaryField
+{
+    inlet
+    {
+        type codedFixedValue;
+        name parabolicInlet;
+        value uniform (0 0 0);
+        code
+        #{
+            const scalar Umax = __PROFILE_UMAX__;
+            const scalar H = __PROFILE_HEIGHT__;
+            const vectorField& Cf = patch().Cf();
+            vectorField vals(Cf.size(), vector::zero);
+
+            forAll(vals, i)
+            {
+                const scalar y = Cf[i].y();
+                const scalar eta = min(max(y / H, scalar(0)), scalar(1));
+                const scalar ux = 4.0 * Umax * eta * (1.0 - eta);
+                vals[i] = vector(ux, 0, 0);
+            }
+
+            operator==(vals);
+        #};
+    }
+    outlet
+    {
+        type zeroGradient;
+    }
+    walls
+    {
+        type noSlip;
+    }
+    frontAndBack
+    {
+        type empty;
+    }
+}

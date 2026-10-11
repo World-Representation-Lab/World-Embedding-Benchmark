@@ -1,0 +1,27 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+
+application     icoFoam;
+
+startFrom       startTime;
+startTime       0;
+
+stopAt          endTime;
+endTime         10;
+
+deltaT          0.002;
+adjustTimeStep  yes;
+maxCo           0.5;
+maxDeltaT       0.002;
+
+writeControl    timeStep;
+writeInterval   20;
+
+purgeWrite      0;
+writeFormat     ascii;
+writePrecision  7;
+writeCompression off;
+
+timeFormat      general;
+timePrecision   6;
+
+runTimeModifiable yes;

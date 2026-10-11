@@ -1,0 +1,66 @@
+{
+  "domain": "dynamics",
+  "family": "articulatedChain",
+  "backend": "surrogate",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "articulatedChain",
+        "family": "articulatedChain",
+        "case_prefix": "articulatedChain",
+        "case_name": "articulatedChain_S000",
+        "description": "three-link chain released from a bent initial configuration",
+        "dim": "2D",
+        "solver": {
+          "backend_preference": [
+            "surrogate"
+          ],
+          "duration": 5.5,
+          "step_size": 0.004,
+          "sample_count": 180,
+          "contact_method": "none",
+          "solver_type": "linked_pendulum_surrogate"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "three link articulated chain release",
+          "link_count": 3,
+          "lengths": [
+            0.44,
+            0.4,
+            0.36
+          ],
+          "initial_angles_deg": [
+            40.0,
+            18.0,
+            -12.0
+          ],
+          "damping": 0.16,
+          "terminal_mass": 0.42,
+          "terminal_radius": 0.065
+        },
+        "tags": [
+          "articulated_chain",
+          "release",
+          "2D"
+        ],
+        "seed": 8401
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

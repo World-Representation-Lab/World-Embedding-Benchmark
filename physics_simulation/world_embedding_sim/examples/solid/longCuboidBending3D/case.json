@@ -1,0 +1,68 @@
+{
+  "domain": "solid",
+  "family": "longCuboidBending3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "longCuboidBending3D",
+    "family": "longCuboidBending3D",
+    "case_prefix": "longCuboidBending3D",
+    "case_name": "longCuboidBending3D_S000",
+    "description": "Long cuboid bending in 3D",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 61000000000,
+      "nu": 0.26,
+      "rho": 650
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.6,
+      "ly": 0.44,
+      "thickness": 0.043,
+      "lz": 0.31,
+      "shape_3d": "cuboid"
+    },
+    "loading": {
+      "mode": "bending_displacement",
+      "load_factor": 0.013,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 21,
+      "mesh": {
+        "nx": 61,
+        "ny": 18,
+        "nz": 14
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 21
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "longCuboidBending3D",
+      "linear_elastic",
+      "bending_displacement",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

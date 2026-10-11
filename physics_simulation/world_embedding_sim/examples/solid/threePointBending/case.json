@@ -1,0 +1,68 @@
+{
+  "domain": "solid",
+  "family": "threePointBending",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "threePointBending",
+    "family": "threePointBending",
+    "case_prefix": "threePointBending",
+    "case_name": "threePointBending_S000",
+    "description": "Beam-like three-point bending response",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 180000000000,
+      "nu": 0.32,
+      "rho": 750
+    },
+    "geometry": {
+      "kind": "beam",
+      "lx": 2.5,
+      "ly": 0.11,
+      "thickness": 0.021,
+      "support_span": 2.3,
+      "load_width": 0.15
+    },
+    "loading": {
+      "mode": "midspan_displacement",
+      "load_factor": 0.12,
+      "load_sign": 1,
+      "load_path": [],
+      "center_drop_ratio": 0.93
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 21,
+      "mesh": {
+        "nx": 152,
+        "ny": 34
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 21
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "threePointBending",
+      "linear_elastic",
+      "midspan_displacement",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

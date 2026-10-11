@@ -1,0 +1,81 @@
+{
+  "domain": "solid",
+  "family": "hyperelasticNeoHookeanSphere3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "hyperelasticNeoHookeanSphere3D",
+    "family": "hyperelasticNeoHookeanSphere3D",
+    "case_prefix": "hyperelasticNeoHookeanSphere3D",
+    "case_name": "hyperelasticNeoHookeanSphere3D_S000",
+    "description": "3D hyperelastic Neo-Hookean sphere under axial compression",
+    "dim": "3D",
+    "material": {
+      "model": "neo_hookean",
+      "E": 5000000000,
+      "nu": 0.49,
+      "rho": 2400,
+      "mu": 4700000,
+      "kappa": 160000000
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.1,
+      "ly": 1.1,
+      "thickness": 0.074,
+      "lz": 1.1,
+      "shape_3d": "sphere",
+      "sphere_radius": 0.48
+    },
+    "loading": {
+      "mode": "axial_compression",
+      "load_factor": 0.076,
+      "load_sign": 1,
+      "load_path": [],
+      "compress_axis": [
+        0,
+        0,
+        1
+      ]
+    },
+    "nonlinear": {
+      "model": "neo_hookean",
+      "params": {
+        "mu": 4700000,
+        "kappa": 160000000,
+        "newton_damp": 0.67
+      }
+    },
+    "solver": {
+      "n_steps": 24,
+      "mesh": {
+        "nx": 42,
+        "ny": 31,
+        "nz": 24
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 24
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "hyperelasticNeoHookeanSphere3D",
+      "neo_hookean",
+      "axial_compression",
+      "3D",
+      "calibrated_nonlinear_v1"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

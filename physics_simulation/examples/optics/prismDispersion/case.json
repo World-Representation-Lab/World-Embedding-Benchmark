@@ -1,0 +1,89 @@
+{
+  "domain": "optics",
+  "family": "prismDispersion",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "prismDispersion",
+        "family": "prismDispersion",
+        "case_prefix": "prismDispersion",
+        "case_name": "prismDispersion_S000",
+        "description": "Chromatic angular separation across a prism with RGB IOR lifting.",
+        "dim": "3D",
+        "optics": {
+          "model": "prism_dispersion",
+          "phenomena": [
+            "dispersion",
+            "refraction"
+          ],
+          "prism": {
+            "apex_angle_deg": 48.0,
+            "length": 0.72,
+            "ior_rgb": {
+              "r": 1.514,
+              "g": 1.522,
+              "b": 1.532
+            }
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "white_collimated",
+            "source_distance": 1.1,
+            "divergence_deg": 0.2,
+            "beam_half_width": 0.05
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.72,
+          "screen_half_width": 0.8,
+          "screen_half_height": 0.35
+        },
+        "scan": {
+          "parameter": "incident_trim_deg",
+          "start": -6.0,
+          "stop": 8.0,
+          "count": 32,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.9,
+            0.9,
+            -0.4,
+            0.4
+          ],
+          "ray_bundle_count": 7
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb",
+            "scalar_spectral"
+          ],
+          "samples_per_pixel": 128,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "dispersion",
+          "prism",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

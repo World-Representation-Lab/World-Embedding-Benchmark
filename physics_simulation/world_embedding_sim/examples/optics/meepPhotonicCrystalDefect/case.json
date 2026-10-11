@@ -1,0 +1,80 @@
+{
+  "domain": "optics",
+  "family": "meepPhotonicCrystalDefect",
+  "backend": "meep",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "meepPhotonicCrystalDefect",
+        "family": "meepPhotonicCrystalDefect",
+        "case_prefix": "meepPhotonicCrystalDefect",
+        "case_name": "meepPhotonicCrystalDefect_S000",
+        "description": "Meep-backed 2D full-wave electromagnetic FDTD benchmark case.",
+        "dim": "2D",
+        "optics": {
+          "model": "meep_fdtd",
+          "phenomena": [
+            "full_wave_em",
+            "meepPhotonicCrystalDefect"
+          ],
+          "photonic_crystal": {
+            "pitch": 0.57,
+            "rod_radius": 0.11,
+            "defect_scale": 1.1,
+            "rod_index": 2.8
+          },
+          "source": {
+            "type": "center_pulse",
+            "wavelength": 0.86,
+            "polarization": "Ez"
+          }
+        },
+        "scan": {
+          "parameter": "field_time",
+          "start": 0.0,
+          "stop": 20.0,
+          "count": 128,
+          "units": "a.u."
+        },
+        "visualization": {
+          "field_resolution": [
+            176,
+            112
+          ],
+          "field_extent": [
+            -3.2,
+            3.2,
+            -1.9,
+            1.9
+          ],
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "meep"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0,
+          "strict_mitsuba_default": false,
+          "meep": {
+            "resolution": 18,
+            "pml_thickness": 0.55,
+            "cell_size": [
+              7.2,
+              4.4
+            ],
+            "run_time": 20.0,
+            "record_start_fraction": 0.62,
+            "source_fwidth": 0.18
+          }
+        }
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

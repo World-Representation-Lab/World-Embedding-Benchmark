@@ -1,0 +1,75 @@
+{
+  "domain": "solid",
+  "family": "plasticJ2LargeStrain3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "plasticJ2LargeStrain3D",
+    "family": "plasticJ2LargeStrain3D",
+    "case_prefix": "plasticJ2LargeStrain3D",
+    "case_name": "plasticJ2LargeStrain3D_S000",
+    "description": "3D finite-strain J2 plasticity response",
+    "dim": "3D",
+    "material": {
+      "model": "j2_plastic",
+      "E": 80000000000,
+      "nu": 0.31,
+      "rho": 1000,
+      "yield_stress": 740000000,
+      "hardening_modulus": 420000000
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 0.83,
+      "ly": 0.72,
+      "thickness": 0.048,
+      "lz": 0.93,
+      "shape_3d": "cuboid"
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.051,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "j2_plasticity",
+      "params": {
+        "yield_stress": 740000000,
+        "hardening_modulus": 420000000,
+        "plastic_tol": 1e-08
+      }
+    },
+    "solver": {
+      "n_steps": 19,
+      "mesh": {
+        "nx": 44,
+        "ny": 30,
+        "nz": 21
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 19
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "plasticJ2LargeStrain3D",
+      "j2_plastic",
+      "displacement_control",
+      "3D",
+      "calibrated_nonlinear_v1"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

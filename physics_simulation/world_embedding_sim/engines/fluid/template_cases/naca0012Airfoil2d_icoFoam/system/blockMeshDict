@@ -1,0 +1,139 @@
+FoamFile { version 2.0; format ascii; class dictionary; object blockMeshDict; }
+
+scale 1.0;
+
+vertices
+(
+    // Smooth symmetric airfoil obstacle, z=0
+    (__AIR_TE__ 0 0)
+    (0 __AIR_THICKNESS__ 0)
+    (__AIR_LE__ 0 0)
+    (0 -__AIR_THICKNESS__ 0)
+
+    // Outer far field, z=0
+    (__R_OUTER__ 0 0)
+    (0 __R_OUTER__ 0)
+    (-__R_OUTER__ 0 0)
+    (0 -__R_OUTER__ 0)
+
+    // Smooth symmetric airfoil obstacle, z=Lz
+    (__AIR_TE__ 0 __LZ__)
+    (0 __AIR_THICKNESS__ __LZ__)
+    (__AIR_LE__ 0 __LZ__)
+    (0 -__AIR_THICKNESS__ __LZ__)
+
+    // Outer far field, z=Lz
+    (__R_OUTER__ 0 __LZ__)
+    (0 __R_OUTER__ __LZ__)
+    (-__R_OUTER__ 0 __LZ__)
+    (0 -__R_OUTER__ __LZ__)
+);
+
+blocks
+(
+    hex (0 4 5 1 8 12 13 9) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (1 5 6 2 9 13 14 10) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (2 6 7 3 10 14 15 11) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+    hex (3 7 4 0 11 15 12 8) (__NX__ __NY__ __NZ__) simpleGrading (1 1 1)
+);
+
+edges
+(
+    spline 0 1
+    (
+        (__AIR_X_QUARTER__ __AIR_Y_TE__ 0)
+        (__AIR_X_EIGHTH__ __AIR_Y_QUARTER__ 0)
+    )
+    spline 1 2
+    (
+        (-__AIR_X_EIGHTH__ __AIR_Y_MID__ 0)
+        (-__AIR_X_QUARTER__ __AIR_Y_QUARTER__ 0)
+    )
+    spline 2 3
+    (
+        (-__AIR_X_QUARTER__ -__AIR_Y_QUARTER__ 0)
+        (-__AIR_X_EIGHTH__ -__AIR_Y_MID__ 0)
+    )
+    spline 3 0
+    (
+        (__AIR_X_EIGHTH__ -__AIR_Y_QUARTER__ 0)
+        (__AIR_X_QUARTER__ -__AIR_Y_TE__ 0)
+    )
+
+    arc 4 5 (__R_OUTER_DIAG__ __R_OUTER_DIAG__ 0)
+    arc 5 6 (-__R_OUTER_DIAG__ __R_OUTER_DIAG__ 0)
+    arc 6 7 (-__R_OUTER_DIAG__ -__R_OUTER_DIAG__ 0)
+    arc 7 4 (__R_OUTER_DIAG__ -__R_OUTER_DIAG__ 0)
+
+    spline 8 9
+    (
+        (__AIR_X_QUARTER__ __AIR_Y_TE__ __LZ__)
+        (__AIR_X_EIGHTH__ __AIR_Y_QUARTER__ __LZ__)
+    )
+    spline 9 10
+    (
+        (-__AIR_X_EIGHTH__ __AIR_Y_MID__ __LZ__)
+        (-__AIR_X_QUARTER__ __AIR_Y_QUARTER__ __LZ__)
+    )
+    spline 10 11
+    (
+        (-__AIR_X_QUARTER__ -__AIR_Y_QUARTER__ __LZ__)
+        (-__AIR_X_EIGHTH__ -__AIR_Y_MID__ __LZ__)
+    )
+    spline 11 8
+    (
+        (__AIR_X_EIGHTH__ -__AIR_Y_QUARTER__ __LZ__)
+        (__AIR_X_QUARTER__ -__AIR_Y_TE__ __LZ__)
+    )
+
+    arc 12 13 (__R_OUTER_DIAG__ __R_OUTER_DIAG__ __LZ__)
+    arc 13 14 (-__R_OUTER_DIAG__ __R_OUTER_DIAG__ __LZ__)
+    arc 14 15 (-__R_OUTER_DIAG__ -__R_OUTER_DIAG__ __LZ__)
+    arc 15 12 (__R_OUTER_DIAG__ -__R_OUTER_DIAG__ __LZ__)
+);
+
+boundary
+(
+    // Kept as zero-face patches so existing field dictionaries and scripts remain compatible.
+    inlet { type patch; faces (); }
+    outlet { type patch; faces (); }
+    farField
+    {
+        type patch;
+        faces
+        (
+            (4 5 13 12)
+            (5 6 14 13)
+            (6 7 15 14)
+            (7 4 12 15)
+        );
+    }
+    obstacle
+    {
+        type wall;
+        faces
+        (
+            (0 8 9 1)
+            (1 9 10 2)
+            (2 10 11 3)
+            (3 11 8 0)
+        );
+    }
+    frontAndBack
+    {
+        type empty;
+        faces
+        (
+            (0 4 5 1)
+            (8 12 13 9)
+            (1 5 6 2)
+            (9 13 14 10)
+            (2 6 7 3)
+            (10 14 15 11)
+            (3 7 4 0)
+            (11 15 12 8)
+        );
+    }
+);
+
+mergePatchPairs ();

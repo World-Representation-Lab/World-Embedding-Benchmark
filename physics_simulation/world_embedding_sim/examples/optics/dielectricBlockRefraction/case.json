@@ -1,0 +1,82 @@
+{
+  "domain": "optics",
+  "family": "dielectricBlockRefraction",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "dielectricBlockRefraction",
+        "family": "dielectricBlockRefraction",
+        "case_prefix": "dielectricBlockRefraction",
+        "case_name": "dielectricBlockRefraction_S000",
+        "description": "Refraction through a dielectric block with a Snell-law sweep.",
+        "dim": "2D",
+        "optics": {
+          "model": "dielectric_block",
+          "phenomena": [
+            "refraction",
+            "snell"
+          ],
+          "block": {
+            "int_ior": 1.52,
+            "thickness": 0.32
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "collimated_spot",
+            "source_distance": 1.1,
+            "divergence_deg": 0.4,
+            "beam_half_width": 0.08
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.9,
+          "screen_half_width": 1.1,
+          "screen_half_height": 0.6
+        },
+        "scan": {
+          "parameter": "incident_angle_deg",
+          "start": 8.0,
+          "stop": 55.0,
+          "count": 32,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -1.1,
+            1.1,
+            -0.7,
+            0.7
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "refraction",
+          "dielectric"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

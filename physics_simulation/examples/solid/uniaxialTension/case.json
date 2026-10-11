@@ -1,0 +1,67 @@
+{
+  "domain": "solid",
+  "family": "uniaxialTension",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "uniaxialTension",
+    "family": "uniaxialTension",
+    "case_prefix": "uniaxialTension",
+    "case_name": "uniaxialTension_S000",
+    "description": "Uniaxial tension with linear elasticity",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 9100000000,
+      "nu": 0.36,
+      "rho": 7900
+    },
+    "geometry": {
+      "kind": "dogbone",
+      "lx": 0.94,
+      "ly": 0.17,
+      "thickness": 0.016,
+      "neck_region_center": 0.48,
+      "neck_region_width": 0.079
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.14,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 28,
+      "mesh": {
+        "nx": 125,
+        "ny": 52
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 28
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "uniaxialTension",
+      "linear_elastic",
+      "displacement_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

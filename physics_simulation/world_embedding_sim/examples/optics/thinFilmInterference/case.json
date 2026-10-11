@@ -1,0 +1,92 @@
+{
+  "domain": "optics",
+  "family": "thinFilmInterference",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "thinFilmInterference",
+        "family": "thinFilmInterference",
+        "case_prefix": "thinFilmInterference",
+        "case_name": "thinFilmInterference_S000",
+        "description": "Thin-film multiple-beam interference with a film-thickness sweep.",
+        "dim": "2D",
+        "optics": {
+          "model": "thin_film_interference",
+          "phenomena": [
+            "interference",
+            "fresnel",
+            "thin_film",
+            "coherent"
+          ],
+          "film": {
+            "n_incident": 1.0,
+            "n_film": 1.46,
+            "n_substrate": 1.52,
+            "angle_deg": 12.0,
+            "wavelength_center_nm": 550.0,
+            "wavelength_span_nm": 220.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "broadband_plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.5
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.0,
+          "screen_half_width": 1.0,
+          "screen_half_height": 0.42
+        },
+        "scan": {
+          "parameter": "film_thickness_nm",
+          "start": 80.0,
+          "stop": 620.0,
+          "count": 40,
+          "units": "nm"
+        },
+        "visualization": {
+          "field_resolution": [
+            224,
+            128
+          ],
+          "field_extent": [
+            -1.0,
+            1.0,
+            -0.42,
+            0.42
+          ],
+          "solver_grid_pixels": 192,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "thin-film",
+          "interference",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

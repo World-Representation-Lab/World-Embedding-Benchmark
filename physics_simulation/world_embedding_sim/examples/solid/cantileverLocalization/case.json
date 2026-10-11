@@ -1,0 +1,71 @@
+{
+  "domain": "solid",
+  "family": "cantileverLocalization",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "cantileverLocalization",
+    "family": "cantileverLocalization",
+    "case_prefix": "cantileverLocalization",
+    "case_name": "cantileverLocalization_S000",
+    "description": "Cantilever bending with localization band",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 3400000000,
+      "nu": 0.43,
+      "rho": 820
+    },
+    "geometry": {
+      "kind": "cantilever",
+      "lx": 1.6,
+      "ly": 0.31,
+      "thickness": 0.022,
+      "localization_band_x": 1
+    },
+    "loading": {
+      "mode": "tip_load",
+      "load_factor": 0.26,
+      "load_sign": 1,
+      "load_path": [],
+      "tip_force_direction": [
+        0,
+        -1,
+        0
+      ]
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 26,
+      "mesh": {
+        "nx": 178,
+        "ny": 30
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 26
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "cantileverLocalization",
+      "linear_elastic",
+      "tip_load",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

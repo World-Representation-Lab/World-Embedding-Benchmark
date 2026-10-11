@@ -1,0 +1,81 @@
+{
+  "domain": "optics",
+  "family": "planeMirrorReflection",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "planeMirrorReflection",
+        "family": "planeMirrorReflection",
+        "case_prefix": "planeMirrorReflection",
+        "case_name": "planeMirrorReflection_S000",
+        "description": "Specular plane-mirror reflection with an incident-angle sweep.",
+        "dim": "2D",
+        "optics": {
+          "model": "plane_mirror",
+          "phenomena": [
+            "reflection",
+            "specular"
+          ],
+          "mirror": {
+            "reflectance": 0.94
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "collimated_spot",
+            "source_distance": 1.05,
+            "divergence_deg": 0.35,
+            "beam_half_width": 0.08
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.2,
+          "screen_half_width": 1.4,
+          "screen_half_height": 0.7
+        },
+        "scan": {
+          "parameter": "incident_angle_deg",
+          "start": -25.0,
+          "stop": 25.0,
+          "count": 32,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -1.4,
+            1.4,
+            -0.7,
+            0.7
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "reflection",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

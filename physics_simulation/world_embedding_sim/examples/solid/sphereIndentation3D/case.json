@@ -1,0 +1,70 @@
+{
+  "domain": "solid",
+  "family": "sphereIndentation3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "sphereIndentation3D",
+    "family": "sphereIndentation3D",
+    "case_prefix": "sphereIndentation3D",
+    "case_name": "sphereIndentation3D_S000",
+    "description": "Sphere indentation-like compression in 3D",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 65000000000,
+      "nu": 0.36,
+      "rho": 1200
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.7,
+      "ly": 0.71,
+      "thickness": 0.11,
+      "lz": 0.34,
+      "shape_3d": "sphere",
+      "sphere_radius": 0.16
+    },
+    "loading": {
+      "mode": "indentation_control",
+      "load_factor": 0.052,
+      "load_sign": 1,
+      "load_path": [],
+      "indent_depth_ratio": 0.14
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 20,
+      "mesh": {
+        "nx": 41,
+        "ny": 24,
+        "nz": 33
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 20
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "sphereIndentation3D",
+      "linear_elastic",
+      "indentation_control",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

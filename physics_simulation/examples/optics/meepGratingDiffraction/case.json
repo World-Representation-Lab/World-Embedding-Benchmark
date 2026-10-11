@@ -1,0 +1,80 @@
+{
+  "domain": "optics",
+  "family": "meepGratingDiffraction",
+  "backend": "meep",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "meepGratingDiffraction",
+        "family": "meepGratingDiffraction",
+        "case_prefix": "meepGratingDiffraction",
+        "case_name": "meepGratingDiffraction_S000",
+        "description": "Meep-backed 2D full-wave electromagnetic FDTD benchmark case.",
+        "dim": "2D",
+        "optics": {
+          "model": "meep_fdtd",
+          "phenomena": [
+            "full_wave_em",
+            "meepGratingDiffraction"
+          ],
+          "grating": {
+            "period": 0.44,
+            "duty_cycle": 0.29,
+            "bar_index": 2.3,
+            "bar_thickness": 0.18
+          },
+          "source": {
+            "type": "plane_wave",
+            "wavelength": 0.65,
+            "polarization": "Ez"
+          }
+        },
+        "scan": {
+          "parameter": "field_time",
+          "start": 0.0,
+          "stop": 17.0,
+          "count": 128,
+          "units": "a.u."
+        },
+        "visualization": {
+          "field_resolution": [
+            176,
+            112
+          ],
+          "field_extent": [
+            -3.2,
+            3.2,
+            -1.9,
+            1.9
+          ],
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "meep"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0,
+          "strict_mitsuba_default": false,
+          "meep": {
+            "resolution": 18,
+            "pml_thickness": 0.55,
+            "cell_size": [
+              7.2,
+              4.4
+            ],
+            "run_time": 17.0,
+            "record_start_fraction": 0.64,
+            "source_fwidth": 0.18
+          }
+        }
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

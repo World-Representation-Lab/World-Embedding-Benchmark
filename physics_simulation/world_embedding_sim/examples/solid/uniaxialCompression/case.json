@@ -1,0 +1,65 @@
+{
+  "domain": "solid",
+  "family": "uniaxialCompression",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "uniaxialCompression",
+    "family": "uniaxialCompression",
+    "case_prefix": "uniaxialCompression",
+    "case_name": "uniaxialCompression_S000",
+    "description": "Uniaxial compression with small geometric nonlinearity",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 28000000000,
+      "nu": 0.33,
+      "rho": 820
+    },
+    "geometry": {
+      "kind": "prism",
+      "lx": 1.5,
+      "ly": 0.65,
+      "thickness": 0.013
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.13,
+      "load_sign": -1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 20,
+      "mesh": {
+        "nx": 125,
+        "ny": 71
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 20
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "uniaxialCompression",
+      "linear_elastic",
+      "displacement_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

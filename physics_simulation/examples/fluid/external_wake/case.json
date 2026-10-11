@@ -1,0 +1,45 @@
+{
+  "domain": "fluid",
+  "family": "external_wake",
+  "backend": null,
+  "simulation": {
+    "template": "template_cases/flowPastCylinder2d_icoFoam",
+    "out_root": "cases",
+    "domain": "fluid",
+    "scene": "flow_past_cylinder_2d",
+    "case_prefix": "flowpastcylinder2d",
+    "L": 1.0,
+    "U_inlet": 1.0,
+    "Re_list": [
+      40
+    ],
+    "laminar_re_max": 1000,
+    "endTime": 12.0,
+    "writeInterval": 0.1,
+    "dt": 0.005,
+    "geometry": {
+      "lx": 16.0,
+      "ly": 8.0,
+      "lz": 0.01,
+      "obstacle_radius": 0.5
+    },
+    "mesh": {
+      "nx": 64,
+      "ny": 32,
+      "nz": 1,
+      "thickness": 0.01
+    },
+    "auto_turbulence_for_high_re": true,
+    "turbulence_re_threshold": 5000.0,
+    "auto_turbulence_solver": "pimpleFoam",
+    "auto_turbulence_model": "kOmegaSST",
+    "turbulence_intensity": 0.05,
+    "turbulence_length_scale": 0.07
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

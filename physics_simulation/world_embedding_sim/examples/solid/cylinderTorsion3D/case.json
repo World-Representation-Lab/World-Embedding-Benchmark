@@ -1,0 +1,70 @@
+{
+  "domain": "solid",
+  "family": "cylinderTorsion3D",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "cylinderTorsion3D",
+    "family": "cylinderTorsion3D",
+    "case_prefix": "cylinderTorsion3D",
+    "case_name": "cylinderTorsion3D_S000",
+    "description": "Cylinder torsion in 3D",
+    "dim": "3D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 4900000000,
+      "nu": 0.29,
+      "rho": 710
+    },
+    "geometry": {
+      "kind": "solid_3d",
+      "lx": 1.5,
+      "ly": 0.44,
+      "thickness": 0.081,
+      "lz": 0.38,
+      "shape_3d": "cylinder",
+      "cylinder_radius": 0.16
+    },
+    "loading": {
+      "mode": "torsion_control",
+      "load_factor": 0.049,
+      "load_sign": 1,
+      "load_path": [],
+      "twist_angle_deg": 15
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 23,
+      "mesh": {
+        "nx": 37,
+        "ny": 19,
+        "nz": 26
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 3,
+        "newton_tol": 1e-08,
+        "max_iters": 40,
+        "load_steps": 23
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "cylinderTorsion3D",
+      "linear_elastic",
+      "torsion_control",
+      "3D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "domain": "dynamics",
+  "family": "flexibleCrankSlider",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "flexibleCrankSlider",
+        "family": "flexibleCrankSlider",
+        "case_prefix": "flexibleCrankSlider",
+        "case_name": "flexibleCrankSlider_S000",
+        "description": "rigid-flexible crank-slider surrogate; exports slider velocity and rod mid-point whipping response",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 2.0,
+          "step_size": 0.002,
+          "sample_count": 1001,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "flexible_crank_slider",
+          "crank_radius_m": 0.1,
+          "rod_length_m": 0.3,
+          "rod_elements": 10,
+          "rod_section_w_m": 0.01,
+          "rod_section_h_m": 0.01,
+          "slider_mass_kg": 1.0,
+          "omega_rad_s": 20.0,
+          "constraint_violation_target_m": 1e-05,
+          "mid_whip_amplitude_m": 0.012
+        },
+        "tags": [
+          "flexibleCrankSlider",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1009
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

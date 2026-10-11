@@ -1,0 +1,71 @@
+{
+  "domain": "dynamics",
+  "family": "cantileverBeamTransient",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "cantileverBeamTransient",
+        "family": "cantileverBeamTransient",
+        "case_prefix": "cantileverBeamTransient",
+        "case_name": "cantileverBeamTransient_S000",
+        "description": "cantilever beam transient response with step load and release; tip displacement exported for frequency validation",
+        "dim": "3D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 2.0,
+          "step_size": 0.01,
+          "sample_count": 201,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN",
+          "linear_solver_preference": [
+            "PardisoMKL",
+            "SparseQR"
+          ],
+          "timestepper": "HHT",
+          "hht_alpha": -0.2,
+          "hht_max_iters": 10,
+          "hht_abs_tol": 1e-06
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "cantilever_beam_transient",
+          "length_m": 1.0,
+          "width_m": 0.02,
+          "height_m": 0.02,
+          "young_modulus_pa": 200000000000.0,
+          "poisson": 0.3,
+          "density_kg_m3": 7800.0,
+          "tip_load_n": 100.0,
+          "load_remove_time_s": 0.5,
+          "elements": 20
+        },
+        "tags": [
+          "cantileverBeamTransient",
+          "3D",
+          "chrono",
+          "fea",
+          "default"
+        ],
+        "seed": 1001
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "domain": "solid",
+  "family": "plateWithHole",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "plateWithHole",
+    "family": "plateWithHole",
+    "case_prefix": "plateWithHole",
+    "case_name": "plateWithHole_S000",
+    "description": "Stress concentration in plate with hole",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 3900000000,
+      "nu": 0.42,
+      "rho": 8700
+    },
+    "geometry": {
+      "kind": "plate_with_hole",
+      "lx": 1.2,
+      "ly": 0.57,
+      "thickness": 0.026,
+      "hole_radius": 0.063,
+      "hole_cx": 0.66,
+      "hole_cy": 0.052
+    },
+    "loading": {
+      "mode": "remote_tension",
+      "load_factor": 0.061,
+      "load_sign": 1,
+      "load_path": []
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 27,
+      "mesh": {
+        "nx": 173,
+        "ny": 80
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 27
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "plateWithHole",
+      "linear_elastic",
+      "remote_tension",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

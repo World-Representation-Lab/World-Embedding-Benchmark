@@ -1,0 +1,90 @@
+{
+  "domain": "optics",
+  "family": "doubleSlitInterference",
+  "backend": "hcipy",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "doubleSlitInterference",
+        "family": "doubleSlitInterference",
+        "case_prefix": "doubleSlitInterference",
+        "case_name": "doubleSlitInterference_S000",
+        "description": "Young double-slit interference with a relative phase-delay sweep between the two slits.",
+        "dim": "2D",
+        "optics": {
+          "model": "double_slit_fraunhofer",
+          "phenomena": [
+            "interference",
+            "diffraction",
+            "coherent"
+          ],
+          "double_slit": {
+            "slit_width": 5.5e-05,
+            "slit_height": 0.00055,
+            "slit_separation": 0.00024,
+            "pupil_diameter": 0.0011,
+            "wavelength_nm": 532.0
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "coherent_plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.0,
+            "beam_half_width": 0.00055
+          }
+        },
+        "receiver": {
+          "screen_distance": 1.0,
+          "screen_half_width": 0.01,
+          "screen_half_height": 0.006
+        },
+        "scan": {
+          "parameter": "phase_delay_deg",
+          "start": 0.0,
+          "stop": 360.0,
+          "count": 32,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            224,
+            144
+          ],
+          "field_extent": [
+            -0.01,
+            0.01,
+            -0.006,
+            0.006
+          ],
+          "solver_grid_pixels": 256,
+          "ray_bundle_count": 0
+        },
+        "solver": {
+          "backend_preference": [
+            "hcipy",
+            "surrogate"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 1,
+          "reference_frames": 0
+        },
+        "tags": [
+          "optics",
+          "wave-optics",
+          "interference",
+          "double-slit",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

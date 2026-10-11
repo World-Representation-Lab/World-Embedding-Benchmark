@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "world-embedding-sim"
+version = "0.1.0"
+description = "Physics simulation examples for World Embedding Benchmark"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[project.scripts]
+web-sim = "world_embedding_sim.cli:main"
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2610.03632"
+Benchmark = "https://github.com/World-Representation-Lab/World-Embedding-Benchmark"
+
+[tool.setuptools.packages.find]
+include = ["world_embedding_sim*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+world_embedding_sim = ["engines/**/*", "examples/**/*"]
+
+[tool.setuptools.exclude-package-data]
+"*" = ["**/__pycache__/*", "**/*.pyc", "**/*.pyo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

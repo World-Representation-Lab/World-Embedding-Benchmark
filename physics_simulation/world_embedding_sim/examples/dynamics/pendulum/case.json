@@ -1,0 +1,64 @@
+{
+  "domain": "dynamics",
+  "family": "pendulum",
+  "backend": "chrono",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "pendulum",
+        "family": "pendulum",
+        "case_prefix": "pendulum",
+        "case_name": "pendulum_S000",
+        "description": "single pendulum with moderate initial deflection",
+        "dim": "2D",
+        "solver": {
+          "backend_preference": [
+            "chrono"
+          ],
+          "duration": 6.0,
+          "step_size": 0.005,
+          "sample_count": 180,
+          "contact_method": "NSC",
+          "solver_type": "BARZILAIBORWEIN"
+        },
+        "environment": {
+          "gravity": [
+            0.0,
+            0.0,
+            -9.81
+          ],
+          "ground": {
+            "enabled": false
+          }
+        },
+        "mechanism": {
+          "type": "pendulum",
+          "length": 1.2,
+          "bob_radius": 0.08,
+          "mass": 1.2,
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "initial_angle_deg": 35.0,
+          "initial_angular_velocity_deg_s": 0.0,
+          "damping": 0.004
+        },
+        "tags": [
+          "pendulum",
+          "2D",
+          "chrono",
+          "default"
+        ],
+        "seed": 101
+      }
+    ]
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "seconds": 7
+  }
+}

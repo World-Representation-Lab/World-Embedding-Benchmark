@@ -1,0 +1,68 @@
+{
+  "domain": "solid",
+  "family": "contactPatchCompression",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "contactPatchCompression",
+    "family": "contactPatchCompression",
+    "case_prefix": "contactPatchCompression",
+    "case_name": "contactPatchCompression_S000",
+    "description": "Patch compression mimicking contact pressure footprint",
+    "dim": "2D",
+    "material": {
+      "model": "linear_elastic",
+      "E": 980000000,
+      "nu": 0.42,
+      "rho": 1200
+    },
+    "geometry": {
+      "kind": "block",
+      "lx": 2.1,
+      "ly": 0.42,
+      "thickness": 0.015,
+      "patch_center_x": 1.1,
+      "patch_half_width": 0.27
+    },
+    "loading": {
+      "mode": "patch_compression",
+      "load_factor": 0.055,
+      "load_sign": -1,
+      "load_path": [],
+      "patch_peak_ratio": 0.81
+    },
+    "nonlinear": {
+      "model": "none",
+      "params": {}
+    },
+    "solver": {
+      "n_steps": 18,
+      "mesh": {
+        "nx": 120,
+        "ny": 65
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 18
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "contactPatchCompression",
+      "linear_elastic",
+      "patch_compression",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

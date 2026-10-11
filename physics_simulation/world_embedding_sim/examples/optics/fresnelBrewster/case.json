@@ -1,0 +1,87 @@
+{
+  "domain": "optics",
+  "family": "fresnelBrewster",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "fresnelBrewster",
+        "family": "fresnelBrewster",
+        "case_prefix": "fresnelBrewster",
+        "case_name": "fresnelBrewster_S000",
+        "description": "P-polarized Fresnel reflection sweep across the Brewster angle.",
+        "dim": "2D",
+        "optics": {
+          "model": "dielectric_interface",
+          "phenomena": [
+            "fresnel",
+            "brewster"
+          ],
+          "polarization_mode": "p",
+          "interface": {
+            "n1": 1.0,
+            "n2": 1.5,
+            "polarization": "p"
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "plane_wave",
+            "source_distance": 1.0,
+            "divergence_deg": 0.1,
+            "beam_half_width": 0.05
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.42,
+          "screen_half_width": 0.45,
+          "screen_half_height": 0.3
+        },
+        "scan": {
+          "parameter": "incident_angle_deg",
+          "start": 30.0,
+          "stop": 75.0,
+          "count": 36,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.55,
+            0.55,
+            -0.35,
+            0.35
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_spectral_polarized",
+            "scalar_rgb_polarized",
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "fresnel",
+          "brewster",
+          "polarization"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

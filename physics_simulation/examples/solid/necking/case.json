@@ -1,0 +1,74 @@
+{
+  "domain": "solid",
+  "family": "necking",
+  "backend": "fenicsx",
+  "simulation": {
+    "scene": "necking",
+    "family": "necking",
+    "case_prefix": "necking",
+    "case_name": "necking_S000",
+    "description": "Necking in tension bar",
+    "dim": "2D",
+    "material": {
+      "model": "j2_plastic",
+      "E": 65000000000,
+      "nu": 0.42,
+      "rho": 4100,
+      "yield_stress": 28000000,
+      "hardening_modulus": 800000000
+    },
+    "geometry": {
+      "kind": "dogbone",
+      "lx": 1.4,
+      "ly": 0.35,
+      "thickness": 0.025,
+      "neck_region_center": 0.9,
+      "neck_region_width": 0.32
+    },
+    "loading": {
+      "mode": "displacement_control",
+      "load_factor": 0.16,
+      "load_sign": 1,
+      "load_path": [],
+      "damage_onset": 0.68
+    },
+    "nonlinear": {
+      "model": "j2_plasticity",
+      "params": {
+        "yield_stress": 28000000,
+        "hardening_modulus": 800000000,
+        "plastic_tol": 1e-08
+      }
+    },
+    "solver": {
+      "n_steps": 33,
+      "mesh": {
+        "nx": 143,
+        "ny": 76
+      },
+      "fe": {
+        "element": "LagrangeP1",
+        "quadrature": 2,
+        "newton_tol": 1e-08,
+        "max_iters": 24,
+        "load_steps": 33
+      },
+      "backend_preference": [
+        "fenicsx"
+      ]
+    },
+    "tags": [
+      "necking",
+      "j2_plastic",
+      "displacement_control",
+      "2D"
+    ],
+    "seed": 42
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}

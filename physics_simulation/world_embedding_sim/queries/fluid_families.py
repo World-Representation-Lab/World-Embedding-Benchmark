@@ -1,0 +1,26 @@
+"""Retrieval-family names for the OpenFOAM scene configurations."""
+
+FAMILIES = {
+    "channel2d": "channel",
+    "channel2d_turb": "channel",
+    "channel2d_nn_powerlaw": "channel",
+    "channel2d_nn_hb": "channel",
+    "suddenexpansion2d": "internal_step",
+    "suddenexpansion2d_nn_powerlaw": "internal_step",
+    "suddenexpansion2d_nn_hb": "internal_step",
+    "suddencontraction2d": "internal_step",
+    "backwardfacingstep2d": "internal_step",
+    "pipecyl": "pipe_axi",
+    "pipecyl_turb": "pipe_axi",
+    "flowpastsquare2d": "external_wake",
+    "flowpastcylinder2d": "external_wake",
+    "naca0012airfoil2d": "external_aero",
+    "wakeinteraction2d": "external_wake",
+    "jetaxi": "jet_axi",
+    "jetaxi_turb": "jet_axi",
+    "cavity2d_turb": "cavity",
+    "liddrivencavity3d": "cavity",
+    "dye2d": "scalar_transport",
+    "buoyancy2d": "buoyancy",
+    "rayleighbenard2d": "buoyancy",
+}

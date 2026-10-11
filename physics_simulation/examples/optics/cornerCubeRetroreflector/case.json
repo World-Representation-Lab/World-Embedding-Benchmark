@@ -1,0 +1,86 @@
+{
+  "domain": "optics",
+  "family": "cornerCubeRetroreflector",
+  "backend": "mitsuba3",
+  "simulation": {
+    "cases": [
+      {
+        "scene": "cornerCubeRetroreflector",
+        "family": "cornerCubeRetroreflector",
+        "case_prefix": "cornerCubeRetroreflector",
+        "case_name": "cornerCubeRetroreflector_S000",
+        "description": "Corner-cube retroreflector with an incident-angle sweep around normal return.",
+        "dim": "3D",
+        "optics": {
+          "model": "corner_cube",
+          "phenomena": [
+            "retroreflection",
+            "reflection",
+            "multi_bounce"
+          ],
+          "corner_cube": {
+            "aperture_radius": 0.1,
+            "reflectance": 0.92,
+            "face_error_deg": 0.1
+          }
+        },
+        "illumination": {
+          "source": {
+            "type": "plane_wave",
+            "source_distance": 0.75,
+            "divergence_deg": 0.2,
+            "beam_half_width": 0.1
+          }
+        },
+        "receiver": {
+          "screen_distance": 0.6,
+          "screen_half_width": 0.35,
+          "screen_half_height": 0.3
+        },
+        "scan": {
+          "parameter": "incident_angle_deg",
+          "start": -16.0,
+          "stop": 16.0,
+          "count": 36,
+          "units": "deg"
+        },
+        "visualization": {
+          "field_resolution": [
+            160,
+            96
+          ],
+          "field_extent": [
+            -0.85,
+            0.2,
+            -0.25,
+            0.25
+          ],
+          "ray_bundle_count": 9
+        },
+        "solver": {
+          "backend_preference": [
+            "mitsuba2"
+          ],
+          "variant_preferences": [
+            "scalar_rgb"
+          ],
+          "samples_per_pixel": 96,
+          "reference_frames": 3
+        },
+        "tags": [
+          "optics",
+          "retroreflection",
+          "corner-cube",
+          "multi-bounce",
+          "classic"
+        ]
+      }
+    ]
+  },
+  "render": {
+    "width": 1280,
+    "height": 720,
+    "fps": 24,
+    "seconds": 15
+  }
+}
